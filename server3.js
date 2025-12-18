@@ -18,7 +18,7 @@ const app = express();
 app.use(express.static(path.join(__dirname, 'public')));
 
 // Minden GET kérést az index.html-re irányítunk (SPA)
-app.get('*', (req, res) => {
+app.get(/.*/, (req, res) => {
   const indexPath = path.join(__dirname, 'public', 'index.html');
   if (fs.existsSync(indexPath)) {
     res.sendFile(indexPath);
@@ -26,6 +26,7 @@ app.get('*', (req, res) => {
     res.status(404).send('Index file not found');
   }
 });
+
 
 // Port beállítása (Render.com és lokális)
 const port = process.env.PORT || 3000;
@@ -2253,6 +2254,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
