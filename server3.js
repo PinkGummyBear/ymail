@@ -13,6 +13,13 @@ const WebSocket = require('ws');
 const sqlite3 = require('sqlite3').verbose();
 const crypto = require('crypto');
 const jwt = require('jsonwebtoken');
+import express from "express";
+import path from "path";
+
+const app = express();
+
+app.use(express.static("public"));
+
 
 // Additional dependencies
 const nodemailer = require('nodemailer');
@@ -2228,5 +2235,6 @@ process.on('unhandledRejection', (reason, promise) => {
 // ============================================================================
 // START THE SERVER
 // ============================================================================
+
 
 startServer();
