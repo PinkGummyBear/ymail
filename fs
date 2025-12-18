@@ -59,7 +59,7 @@ const logger = winston.createLogger({
 
 import { fileURLToPath } from 'url';
 
-import fs from 'fs';
+
 
 // __filename és __dirname definiálása ES Module-hoz
 const __filename = fileURLToPath(import.meta.url);
@@ -2248,6 +2248,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
