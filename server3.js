@@ -21,13 +21,14 @@ const app = express();
 app.use(express.static("public"));
 
 
-// Additional dependencies
-const nodemailer = require('nodemailer');
-const Imap = require('imap');
-const { simpleParser } = require('mailparser');
-const validator = require('validator');
-const winston = require('winston');
-const rateLimit = require('express-rate-limit');
+// Additional dependencies (ES Module syntax)
+import nodemailer from 'nodemailer';
+import Imap from 'imap';
+import { simpleParser } from 'mailparser';
+import validator from 'validator';
+import winston from 'winston';
+import rateLimit from 'express-rate-limit';
+
 
 // ============================================================================
 // LOGGING SETUP
@@ -2238,6 +2239,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
