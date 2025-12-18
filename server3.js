@@ -7,7 +7,6 @@ const bcrypt = require('bcrypt');
 const { v4: uuidv4 } = require('uuid');
 const SALT_ROUNDS = 12;
 const { promisify } = require('util');
-const express = require('express');
 const cors = require('cors');
 const WebSocket = require('ws');
 const sqlite3 = require('sqlite3').verbose();
@@ -2238,3 +2237,4 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
