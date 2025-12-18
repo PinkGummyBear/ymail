@@ -57,8 +57,17 @@ const logger = winston.createLogger({
 // CONFIGURATION & CONSTANTS
 // ============================================================================
 
+import { fileURLToPath } from 'url';
+import path from 'path';
+import fs from 'fs';
+
+// __filename és __dirname definiálása ES Module-hoz
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+// Ezután használhatod ugyanúgy, mint CommonJS-ben
 const config = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'config.json'))
+  fs.readFileSync(path.join(__dirname, 'config.json'), 'utf-8')
 );
 
 // FIX #5: Abszolút elérési út az adatbázishoz
@@ -2239,6 +2248,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
