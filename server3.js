@@ -1,9 +1,24 @@
-// server.js
+import fs from 'fs';
+import net from 'net';
+import tls from 'tls';
+import { EventEmitter } from 'events';       // <--- fontos a Framer miatt
+import bcrypt from 'bcrypt';
+import { v4 as uuidv4 } from 'uuid';
+import { promisify } from 'util';
+import cors from 'cors';
+import { WebSocketServer } from 'ws';
+import sqlite3Pkg from 'sqlite3';
+import crypto from 'crypto';
+import jwt from 'jsonwebtoken';
 import express from 'express';
 import path from 'path';
-import { fileURLToPath } from 'url';
-import fs from 'fs';
+import nodemailer from 'nodemailer';
+import Imap from 'imap';
+import { simpleParser } from 'mailparser';
+import validator from 'validator';
 import winston from 'winston';
+import rateLimit from 'express-rate-limit';
+import { fileURLToPath } from 'url';;
 
 // ES Modules __filename és __dirname
 const __filename = fileURLToPath(import.meta.url);
@@ -2250,6 +2265,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
