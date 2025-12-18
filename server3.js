@@ -5,6 +5,9 @@ import { fileURLToPath } from 'url';
 import fs from 'fs';
 import winston from 'winston';
 
+// ES Modules __filename és __dirname
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename)
 
 
 
@@ -65,9 +68,7 @@ const logger = winston.createLogger({
 
 
 
-// ES Modules __filename és __dirname
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename)
+
 
 // Ezután használhatod ugyanúgy, mint CommonJS-ben
 const config = JSON.parse(
@@ -2252,6 +2253,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
