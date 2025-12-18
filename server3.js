@@ -4,30 +4,30 @@ import tls from 'tls';
 import { EventEmitter } from 'events';
 import bcrypt from 'bcrypt';
 import { v4 as uuidv4 } from 'uuid';
-const SALT_ROUNDS = 12;
 import { promisify } from 'util';
 import cors from 'cors';
 import WebSocket from 'ws';
 import sqlite3Pkg from 'sqlite3';
-const sqlite3 = sqlite3Pkg.verbose();
 import crypto from 'crypto';
 import jwt from 'jsonwebtoken';
 import express from 'express';
 import path from 'path';
 
-
-const app = express();
-
-app.use(express.static("public"));
-
-
-// Additional dependencies (ES Module syntax)
 import nodemailer from 'nodemailer';
 import Imap from 'imap';
 import { simpleParser } from 'mailparser';
 import validator from 'validator';
 import winston from 'winston';
 import rateLimit from 'express-rate-limit';
+
+// Constants
+const SALT_ROUNDS = 12;
+const sqlite3 = sqlite3Pkg.verbose();
+
+// Express app setup
+const app = express();
+app.use(express.static("public"));
+
 
 
 // ============================================================================
@@ -2248,6 +2248,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
