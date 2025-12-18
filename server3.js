@@ -1,32 +1,51 @@
-import fs from 'fs';
-import net from 'net';
-import tls from 'tls';
-import { EventEmitter } from 'events';
-import bcrypt from 'bcrypt';
-import { v4 as uuidv4 } from 'uuid';
-import { promisify } from 'util';
-import cors from 'cors';
-import { WebSocketServer } from 'ws';
-import sqlite3Pkg from 'sqlite3';
-import crypto from 'crypto';
-import jwt from 'jsonwebtoken';
+// server.js
 import express from 'express';
 import path from 'path';
-
-import nodemailer from 'nodemailer';
-import Imap from 'imap';
-import { simpleParser } from 'mailparser';
-import validator from 'validator';
+import { fileURLToPath } from 'url';
+import fs from 'fs';
 import winston from 'winston';
-import rateLimit from 'express-rate-limit';
 
-// Constants
-const SALT_ROUNDS = 12;
-const sqlite3 = sqlite3Pkg.verbose();
+// ES Modules __filename és __dirname
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-// Express app setup
+// Logger (opcionális, hasznos hibákhoz)
+const logger = winston.createLogger({
+  level: 'info',
+  format: winston.format.combine(
+    winston.format.timestamp(),
+    winston.format.errors({ stack: true }),
+    winston.format.json()
+  ),
+  transports: [
+    new winston.transports.Console(),
+    new winston.transports.File({ filename: 'logs/combined.log' }),
+    new winston.transports.File({ filename: 'logs/error.log', level: 'error' })
+  ]
+});
+
+// Express app létrehozása
 const app = express();
-app.use(express.static("public"));
+
+// Statikus fájlok kiszolgálása a public mappából
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Minden GET kérést az index.html-re irányítunk (SPA)
+app.get('*', (req, res) => {
+  const indexPath = path.join(__dirname, 'public', 'index.html');
+  if (fs.existsSync(indexPath)) {
+    res.sendFile(indexPath);
+  } else {
+    res.status(404).send('Index file not found');
+  }
+});
+
+// Port beállítása (Render.com és lokális)
+const port = process.env.PORT || 3000;
+app.listen(port, () => {
+  logger.info(`Server running on port ${port}`);
+  console.log(`Server running on port ${port}`);
+});
 
 
 
@@ -2248,6 +2267,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
