@@ -19,7 +19,6 @@ import validator from 'validator';
 import winston from 'winston';
 import rateLimit from 'express-rate-limit';
 import { fileURLToPath } from 'url';;
-import sqlite3Pkg from 'sqlite3';
 const sqlite3 = sqlite3Pkg.verbose();
 
 
@@ -2268,6 +2267,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
