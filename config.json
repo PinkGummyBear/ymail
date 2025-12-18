@@ -1,0 +1,42 @@
+{
+    "domain": "yolo.com",
+    "port": 1234,
+
+    "plaintext": { 
+        "port": 1234 
+    },
+
+    "tls":{
+        "port": 1235,
+        "certFile": "./certs/server.crt",
+        "keyFile": "./certs/server.key"
+    },
+    "websocket": { 
+        "port": 8080 
+    },
+
+    "jwt":{
+        "issuer":"yolo.com",
+        "publicKeyFile": "./keys/jwt_pub.pem",
+        "privateKeyFile":"./keys/jwt_priv.pem",
+        "tokenExpirySeconds": 3600
+    },
+
+    "hashcash":{
+        "version": 1,
+        "difficultyBits": 16,
+        "maxSkewSeconds": 7200 
+    },
+
+    "storage":{
+        "dbpath": "./data/messages.db"
+    },
+
+    "smtp": {
+        "host": "smtp.external-relay.com",
+        "port": 587,
+        "secure": false,
+        "user": "your_relay_username",
+        "pass": "your_relay_password"
+    }
+}

@@ -1,0 +1,1716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ymail - Professional Email Client</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1e40af;
+      --bg: #f8fafc;
+      --surface: #ffffff;
+      --border: #e2e8f0;
+      --text: #1e293b;
+      --text-secondary: #64748b;
+      --success: #10b981;
+      --error: #ef4444;
+      --warning: #f59e0b;
+      --hover: #f1f5f9;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      overflow: hidden;
+    }
+
+    /* Login Screen */
+    #login-screen {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+
+    .login-container {
+      background: var(--surface);
+      padding: 3rem;
+      border-radius: 1rem;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      width: 100%;
+      max-width: 400px;
+      animation: slideIn 0.3s ease;
+    }
+
+    @keyframes slideIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .login-logo {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    .login-logo h1 {
+      font-size: 2.5rem;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 700;
+    }
+
+    .login-logo p {
+      color: var(--text-secondary);
+      margin-top: 0.5rem;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      color: var(--text);
+    }
+
+    .form-group input {
+      width: 100%;
+      padding: 0.75rem;
+      border: 2px solid var(--border);
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      transition: border-color 0.2s;
+    }
+
+    .form-group input:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    .btn {
+      width: 100%;
+      padding: 0.875rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-primary {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+    }
+
+    .btn-primary:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+    }
+
+    .btn-secondary {
+      background: var(--hover);
+      color: var(--text);
+      margin-top: 0.5rem;
+    }
+
+    .btn-secondary:hover {
+      background: var(--border);
+    }
+
+    .alert {
+      padding: 0.75rem;
+      border-radius: 0.5rem;
+      margin-bottom: 1rem;
+      font-size: 0.875rem;
+    }
+
+    .alert-error {
+      background: #fee;
+      color: var(--error);
+      border: 1px solid var(--error);
+    }
+
+    .alert-success {
+      background: #efe;
+      color: var(--success);
+      border: 1px solid var(--success);
+    }
+
+    /* Main App */
+    #app {
+      display: none;
+      height: 100vh;
+      flex-direction: column;
+    }
+
+    #app.active {
+      display: flex;
+    }
+
+    /* Header */
+    .header {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+    }
+
+    .header-left {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .header-logo {
+      font-size: 1.5rem;
+      font-weight: 700;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      padding: 0.5rem 1rem;
+      width: 400px;
+    }
+
+    .search-box input {
+      border: none;
+      background: none;
+      outline: none;
+      flex: 1;
+      font-size: 0.875rem;
+    }
+
+    .header-right {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .user-info {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .user-avatar {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 600;
+      font-size: 0.875rem;
+    }
+
+    .btn-icon {
+      padding: 0.5rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: var(--text-secondary);
+      border-radius: 0.375rem;
+      transition: all 0.2s;
+    }
+
+    .btn-icon:hover {
+      background: var(--hover);
+      color: var(--text);
+    }
+
+    /* Main Layout */
+    .main {
+      flex: 1;
+      display: flex;
+      overflow: hidden;
+    }
+
+    /* Sidebar */
+    .sidebar {
+      width: 250px;
+      background: var(--surface);
+      border-right: 1px solid var(--border);
+      display: flex;
+      flex-direction: column;
+      overflow-y: auto;
+    }
+
+    .compose-btn {
+      margin: 1rem;
+      padding: 0.875rem;
+      background: var(--primary);
+      color: white;
+      border: none;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+
+    .compose-btn:hover {
+      background: var(--primary-dark);
+      transform: translateY(-1px);
+      box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
+    }
+
+    .nav-section {
+      padding: 0 1rem;
+    }
+
+    .nav-title {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+      text-transform: uppercase;
+      margin: 1rem 0 0.5rem;
+      letter-spacing: 0.05em;
+    }
+
+    .nav-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.625rem 0.75rem;
+      border-radius: 0.375rem;
+      cursor: pointer;
+      transition: all 0.2s;
+      color: var(--text);
+      margin-bottom: 0.25rem;
+    }
+
+    .nav-item:hover {
+      background: var(--hover);
+    }
+
+    .nav-item.active {
+      background: var(--primary);
+      color: white;
+    }
+
+    .nav-item-badge {
+      margin-left: auto;
+      background: var(--primary);
+      color: white;
+      padding: 0.125rem 0.5rem;
+      border-radius: 1rem;
+      font-size: 0.75rem;
+      font-weight: 600;
+    }
+
+    .nav-item.active .nav-item-badge {
+      background: white;
+      color: var(--primary);
+    }
+
+    /* Content Area */
+    .content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .content-header {
+      padding: 1.5rem;
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .content-title {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    .toolbar {
+      display: flex;
+      gap: 0.5rem;
+    }
+
+    .btn-toolbar {
+      padding: 0.5rem 1rem;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 0.375rem;
+      cursor: pointer;
+      font-size: 0.875rem;
+      transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-toolbar:hover {
+      background: var(--hover);
+      border-color: var(--text-secondary);
+    }
+
+    /* Message List */
+    .message-list {
+      flex: 1;
+      overflow-y: auto;
+      background: var(--surface);
+    }
+
+    .message-item {
+      display: flex;
+      align-items: center;
+      padding: 1rem 1.5rem;
+      border-bottom: 1px solid var(--border);
+      cursor: pointer;
+      transition: all 0.2s;
+      gap: 1rem;
+    }
+
+    .message-item:hover {
+      background: var(--hover);
+    }
+
+    .message-item.unread {
+      background: #eff6ff;
+    }
+
+    .message-checkbox {
+      width: 18px;
+      height: 18px;
+      cursor: pointer;
+    }
+
+    .message-sender {
+      min-width: 200px;
+      font-weight: 600;
+      color: var(--text);
+    }
+
+    .message-item.unread .message-sender {
+      font-weight: 700;
+    }
+
+    .message-content {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .message-subject {
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 0.25rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .message-preview {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .message-time {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+      white-space: nowrap;
+    }
+
+    /* Message View */
+    .message-view {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--surface);
+  display: none;
+  flex-direction: column;
+  z-index: 10;
+}
+
+    .message-view.active {
+      display: flex;
+    }
+
+    .message-view-header {
+      padding: 1.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .message-view-subject {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+
+    .message-view-meta {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .message-from {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .message-from-avatar {
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: 600;
+    }
+
+    .message-from-details {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .message-from-name {
+      font-weight: 600;
+    }
+
+    .message-from-email {
+      font-size: 0.875rem;
+      color: var(--text-secondary);
+    }
+
+    .message-view-body {
+      flex: 1;
+      padding: 1.5rem;
+      overflow-y: auto;
+      line-height: 1.6;
+    }
+
+    .message-attachments {
+      padding: 1.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .attachment-item {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem;
+      background: var(--bg);
+      border-radius: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    /* Compose Modal */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0,0,0,0.5);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .modal-overlay.active {
+      display: flex;
+    }
+
+    .modal {
+      background: var(--surface);
+      border-radius: 1rem;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      width: 90%;
+      max-width: 800px;
+      max-height: 90vh;
+      display: flex;
+      flex-direction: column;
+      animation: modalSlideIn 0.3s ease;
+    }
+
+    @keyframes modalSlideIn {
+      from { opacity: 0; transform: scale(0.9) translateY(20px); }
+      to { opacity: 1; transform: scale(1) translateY(0); }
+    }
+
+    .modal-header {
+      padding: 1.5rem;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .modal-title {
+      font-size: 1.25rem;
+      font-weight: 700;
+    }
+
+    .modal-body {
+      flex: 1;
+      padding: 1.5rem;
+      overflow-y: auto;
+    }
+
+    .compose-field {
+      margin-bottom: 1rem;
+    }
+
+    .compose-field label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      font-size: 0.875rem;
+    }
+
+    .compose-field input,
+    .compose-field textarea {
+      width: 100%;
+      padding: 0.75rem;
+      border: 1px solid var(--border);
+      border-radius: 0.5rem;
+      font-size: 0.875rem;
+      font-family: inherit;
+    }
+
+    .compose-field textarea {
+      min-height: 300px;
+      resize: vertical;
+    }
+
+    .compose-field input:focus,
+    .compose-field textarea:focus {
+      outline: none;
+      border-color: var(--primary);
+    }
+
+    .modal-footer {
+      padding: 1.5rem;
+      border-top: 1px solid var(--border);
+      display: flex;
+      gap: 1rem;
+      justify-content: flex-end;
+    }
+
+    .btn-modal {
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: all 0.2s;
+    }
+
+    .btn-modal-primary {
+      background: var(--primary);
+      color: white;
+    }
+
+    .btn-modal-primary:hover {
+      background: var(--primary-dark);
+    }
+
+    .btn-modal-secondary {
+      background: var(--hover);
+      color: var(--text);
+    }
+
+    .btn-modal-secondary:hover {
+      background: var(--border);
+    }
+
+    /* Loading & Empty States */
+    .loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 3rem;
+      color: var(--text-secondary);
+    }
+
+    .spinner {
+      border: 3px solid var(--border);
+      border-top-color: var(--primary);
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 0.8s linear infinite;
+    }
+
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+
+    .empty-state {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+
+    .empty-icon {
+      font-size: 4rem;
+      margin-bottom: 1rem;
+      opacity: 0.3;
+    }
+
+    .empty-title {
+      font-size: 1.25rem;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+    }
+
+    .empty-text {
+      color: var(--text-secondary);
+    }
+
+    .hidden {
+      display: none !important;
+    }
+
+    /* Status indicator */
+    .status-indicator {
+      position: fixed;
+      bottom: 1rem;
+      right: 1rem;
+      padding: 1rem 1.5rem;
+      background: var(--surface);
+      border-radius: 0.5rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+      display: none;
+      align-items: center;
+      gap: 0.75rem;
+      z-index: 999;
+    }
+
+    .status-indicator.active {
+      display: flex;
+      animation: slideInUp 0.3s ease;
+    }
+
+    @keyframes slideInUp {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .status-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      animation: pulse 2s infinite;
+    }
+
+    .status-success .status-dot {
+      background: var(--success);
+    }
+
+    .status-error .status-dot {
+      background: var(--error);
+    }
+
+    @keyframes pulse {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.5; }
+    }
+  </style>
+</head>
+<body>
+  <!-- Login Screen -->
+  <div id="login-screen">
+    <div class="login-container">
+      <div class="login-logo">
+        <h1>✉️ Ymail</h1>
+        <p>Professional Email Client</p>
+      </div>
+      
+      <div id="login-alert" class="hidden"></div>
+      
+      <div id="login-form">
+        <div class="form-group">
+          <label for="login-email">Email</label>
+          <input type="email" id="login-email" placeholder="you@yolo.com" autocomplete="email">
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password</label>
+          <input type="password" id="login-password" placeholder="••••••••" autocomplete="current-password">
+        </div>
+        <button type="button" class="btn btn-primary" id="login-btn">Sign In</button>
+        <button class="btn btn-secondary" id="show-register-btn">Create Account</button>
+      </div>
+      
+      <div id="register-form" class="hidden">
+        <div class="form-group">
+          <label for="register-email">Email</label>
+          <input type="email" id="register-email" placeholder="you@yolo.com">
+        </div>
+        <div class="form-group">
+          <label for="register-password">Password</label>
+          <input type="password" id="register-password" placeholder="••••••••" minlength="8">
+        </div>
+        <div class="form-group">
+          <label for="register-password-confirm">Confirm Password</label>
+          <input type="password" id="register-password-confirm" placeholder="••••••••" minlength="8">
+        </div>
+        <button class="btn btn-primary" id="register-btn">Create Account</button>
+        <button class="btn btn-secondary" id="show-login-btn">Back to Sign In</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Main App -->
+  <div id="app">
+    <!-- Header -->
+    <div class="header">
+      <div class="header-left">
+        <div class="header-logo">✉️ Ymail</div>
+        <div class="search-box">
+          <span>🔍</span>
+          <input type="text" id="search-input" placeholder="Search messages...">
+        </div>
+      </div>
+      <div class="header-right">
+        <button class="btn-icon" id="refresh-btn" title="Refresh">🔄</button>
+        <div class="user-info">
+          <div class="user-avatar" id="user-avatar">U</div>
+          <span id="user-email"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="80f5f3e5f2c0f9efecefaee3efed">[email&#160;protected]</a></span>
+        </div>
+        <button class="btn-icon" id="logout-btn" title="Logout">🚪</button>
+      </div>
+    </div>
+
+    <!-- Main -->
+    <div class="main">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <button class="compose-btn" id="compose-btn">
+          <span>✏️</span>
+          <span>Compose</span>
+        </button>
+        
+        <div class="nav-section">
+          <div class="nav-title">Folders</div>
+          <div class="nav-item active" data-folder="inbox">
+            <span>📥</span>
+            <span>Inbox</span>
+            <span class="nav-item-badge" id="inbox-count">0</span>
+          </div>
+          <div class="nav-item" data-folder="sent">
+            <span>📤</span>
+            <span>Sent</span>
+          </div>
+          <div class="nav-item" data-folder="trash">
+            <span>🗑️</span>
+            <span>Trash</span>
+          </div>
+        </div>
+        
+        <div class="nav-section">
+          <div class="nav-title">Views</div>
+          <div class="nav-item" data-folder="threads">
+            <span>💬</span>
+            <span>Threads</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        <div class="content-header">
+          <h2 class="content-title" id="content-title">Inbox</h2>
+          <div class="toolbar">
+            <button class="btn-toolbar" id="select-all-btn">
+              <span>☑️</span>
+              <span>Select All</span>
+            </button>
+            <button class="btn-toolbar" id="mark-read-btn">
+              <span>👁️</span>
+              <span>Mark Read</span>
+            </button>
+            <button class="btn-toolbar" id="delete-btn">
+              <span>🗑️</span>
+              <span>Delete</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="message-list" id="message-list">
+          <div class="loading">
+            <div class="spinner"></div>
+          </div>
+        </div>
+
+        <div class="message-view" id="message-view">
+          <div class="message-view-header">
+            <button class="btn-icon" id="back-btn">← Back</button>
+            <div class="message-view-subject" id="view-subject"></div>
+            <div class="message-view-meta">
+              <div class="message-from">
+                <div class="message-from-avatar" id="view-avatar"></div>
+                <div class="message-from-details">
+                  <div class="message-from-name" id="view-from"></div>
+                  <div class="message-from-email" id="view-time"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="message-view-body" id="view-body"></div>
+          <div class="message-attachments hidden" id="view-attachments"></div>
+          <div class="modal-footer">
+            <button class="btn-toolbar" id="reply-btn">↩️ Reply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Compose Modal -->
+  <div class="modal-overlay" id="compose-modal">
+    <div class="modal">
+      <div class="modal-header">
+        <h3 class="modal-title" id="compose-title">New Message</h3>
+        <button class="btn-icon" id="close-compose-btn">✕</button>
+      </div>
+      <div class="modal-body">
+        <div class="compose-field">
+          <label for="compose-to">To</label>
+          <input type="text" id="compose-to" placeholder="recipient@yolo.com">
+        </div>
+        <div class="compose-field">
+          <label for="compose-cc">CC</label>
+          <input type="text" id="compose-cc" placeholder="cc@yolo.com (optional)">
+        </div>
+        <div class="compose-field">
+          <label for="compose-subject">Subject</label>
+          <input type="text" id="compose-subject" placeholder="Subject">
+        </div>
+        <div class="compose-field">
+          <label for="compose-body">Message</label>
+          <textarea id="compose-body" placeholder="Write your message..."></textarea>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn-modal btn-modal-secondary" id="cancel-compose-btn">Cancel</button>
+        <button class="btn-modal btn-modal-primary" id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Status Indicator -->
+  <div class="status-indicator" id="status-indicator">
+    <div class="status-dot"></div>
+    <span id="status-text"></span>
+  </div>
+
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    // WebSocket Connection Manager
+    class YmailClient {
+      constructor(wsUrl) {
+        this.wsUrl = wsUrl;
+        this.ws = null;
+        this.authenticated = false;
+        this.token = null;
+        this.userEmail = null;
+        this.messageHandlers = new Map();
+        this.nextMessageId = 1;
+      }
+
+      connect() {
+        return new Promise((resolve, reject) => {
+          this.ws = new WebSocket(this.wsUrl);
+          
+          this.ws.onopen = () => {
+            console.log('Connected to Ymail server');
+            resolve();
+          };
+
+          this.ws.onerror = (error) => {
+            console.error('WebSocket error:', error);
+            reject(error);
+          };
+
+          this.ws.onmessage = async (event) => {
+  let data;
+
+  if (event.data instanceof Blob) {
+    const arrayBuffer = await event.data.arrayBuffer();
+    data = new Uint8Array(arrayBuffer);
+  } else if (event.data instanceof ArrayBuffer) {
+    data = new Uint8Array(event.data);
+  } else if (typeof event.data === 'string') {
+    data = new TextEncoder().encode(event.data);
+  } else {
+    console.error('Unexpected data type:', typeof event.data);
+    return;
+  }
+
+  if (data.length < 4) {
+    console.error('Message too short');
+    return;
+  }
+
+  // Read the length prefix (first 4 bytes)
+  const length = new DataView(data.buffer).getUint32(0);
+
+  // Extract only the JSON part
+  const jsonBytes = data.slice(4, 4 + length);
+  const jsonStr = new TextDecoder().decode(jsonBytes);
+
+  try {
+    const message = JSON.parse(jsonStr);
+    console.log('Parsed message:', message);
+
+    if (message.requestId && this.messageHandlers.has(message.requestId)) {
+      const handler = this.messageHandlers.get(message.requestId);
+      this.messageHandlers.delete(message.requestId);
+      handler(message);
+    }
+  } catch (err) {
+    console.error('JSON parse error:', err, 'Raw JSON:', jsonStr);
+  }
+};
+
+
+          this.ws.onclose = () => {
+            console.log('Disconnected from server');
+            this.authenticated = false;
+          };
+        });
+      }
+
+      sendCommand(command, data = {}) {
+        return new Promise((resolve, reject) => {
+          const requestId = this.nextMessageId++;
+          const message = { ...data, command, requestId };
+          
+          const jsonStr = JSON.stringify(message);
+          const jsonBytes = new TextEncoder().encode(jsonStr);
+          const frame = new Uint8Array(4 + jsonBytes.length);
+          new DataView(frame.buffer).setUint32(0, jsonBytes.length);
+          frame.set(jsonBytes, 4);
+          
+          this.messageHandlers.set(requestId, (response) => {
+            if (response.code === 200) {
+              resolve(response);
+            } else {
+              reject(new Error(response.error || 'Unknown error'));
+            }
+          });
+          
+          this.ws.send(frame);
+          
+          setTimeout(() => {
+            if (this.messageHandlers.has(requestId)) {
+              this.messageHandlers.delete(requestId);
+              reject(new Error('Request timeout'));
+            }
+          }, 30000);
+        });
+      }
+
+      async register(email, password) {
+        return this.sendCommand('REGISTER', { email, password });
+      }
+
+      async login(email, password) {
+        const response = await this.sendCommand('LOGIN', { email, password });
+        this.token = response.token;
+        this.userEmail = email;
+        return response;
+      }
+
+      async authenticate() {
+        if (!this.token) throw new Error('No token available');
+        const response = await this.sendCommand('AUTH', { token: this.token });
+        this.authenticated = true;
+        return response;
+      }
+
+      async logout() {
+        return this.sendCommand('LOGOUT');
+      }
+
+      async mintHashcash() {
+        try {
+          const response = await fetch(`http://localhost:3001/mint?resource=${encodeURIComponent(this.userEmail)}&bits=16`);
+          const data = await response.json();
+          return data.stamp;
+        } catch (err) {
+          console.error('Hashcash mint failed:', err);
+          throw err;
+        }
+      }
+
+      async sendMessage(to, subject, body, cc = [], bcc = [], inReplyTo = null) {
+        const hashcash = await this.mintHashcash();
+        return this.sendCommand('SEND', {
+          to: Array.isArray(to) ? to : [to],
+          cc,
+          bcc,
+          subject,
+          body,
+          hashcash,
+          in_reply_to: inReplyTo
+        });
+      }
+
+      async listMessages(folder = 'inbox', offset = 0, limit = 50) {
+        return this.sendCommand('LIST', { folder, offset, limit });
+      }
+
+      async readMessage(id) {
+        return this.sendCommand('READ', { id });
+      }
+
+      async readSentMessage(id) {
+        return this.sendCommand('READ_SENT', { id });
+      }
+
+      async markMessage(id, read) {
+        return this.sendCommand('MARK', { id, read });
+      }
+
+      async deleteMessage(id, folder) {
+        return this.sendCommand('DELETE', { id, folder });
+      }
+
+      async listTrash() {
+        return this.sendCommand('LIST_TRASH');
+      }
+
+      async restoreMessage(id, folder) {
+        return this.sendCommand('RESTORE', { id, folder });
+      }
+
+      async listThreads(offset = 0, limit = 50) {
+        return this.sendCommand('LIST_THREADS', { offset, limit });
+      }
+
+      async searchMessages(query, folder = 'inbox', offset = 0, limit = 50) {
+        return this.sendCommand('SEARCH', { query, folder, offset, limit });
+      }
+async replyToMessage(parentId, subject, body) {
+  return this.sendCommand('REPLY', {
+    id: parentId,
+    subject: subject,
+    body: body
+  });
+}
+    }
+
+    // App State
+    const client = new YmailClient('ws://localhost:8080');
+    let currentFolder = 'inbox';
+    let currentMessages = [];
+    let selectedMessages = new Set();
+    let currentViewMessage = null;
+
+    // DOM Elements
+    const loginScreen = document.getElementById('login-screen');
+    const app = document.getElementById('app');
+    const loginForm = document.getElementById('login-form');
+    const registerForm = document.getElementById('register-form');
+    const loginAlert = document.getElementById('login-alert');
+    const messageList = document.getElementById('message-list');
+    const messageView = document.getElementById('message-view');
+    const composeModal = document.getElementById('compose-modal');
+    const statusIndicator = document.getElementById('status-indicator');
+
+    // Utility Functions
+    function showAlert(message, type = 'error') {
+      loginAlert.className = `alert alert-${type}`;
+      loginAlert.textContent = message;
+      loginAlert.classList.remove('hidden');
+    }
+
+    function hideAlert() {
+      loginAlert.classList.add('hidden');
+    }
+
+    function showStatus(message, type = 'success') {
+      const statusText = document.getElementById('status-text');
+      statusText.textContent = message;
+      statusIndicator.className = `status-indicator status-${type} active`;
+      setTimeout(() => {
+        statusIndicator.classList.remove('active');
+      }, 3000);
+    }
+
+    function formatTime(timestamp) {
+      const date = new Date(timestamp);
+      const now = new Date();
+      const diff = now - date;
+      
+      if (diff < 86400000) {
+        return date.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+      } else if (diff < 604800000) {
+        return date.toLocaleDateString([], { weekday: 'short' });
+      } else {
+        return date.toLocaleDateString([], { month: 'short', day: 'numeric' });
+      }
+    }
+
+    function getInitials(email) {
+      return email.charAt(0).toUpperCase();
+    }
+
+    function escapeHtml(text) {
+      const div = document.createElement('div');
+      div.textContent = text;
+      return div.innerHTML;
+    }
+
+    // Login/Register Handlers
+    document.getElementById('show-register-btn').addEventListener('click', () => {
+      loginForm.classList.add('hidden');
+      registerForm.classList.remove('hidden');
+      hideAlert();
+    });
+
+    document.getElementById('show-login-btn').addEventListener('click', () => {
+      registerForm.classList.add('hidden');
+      loginForm.classList.remove('hidden');
+      hideAlert();
+    });
+
+  document.getElementById('login-btn').addEventListener('click', async (e) => {
+  e.preventDefault(); // just in case
+
+  const email = document.getElementById('login-email').value.trim();
+  const password = document.getElementById('login-password').value;
+
+  if (!email || !password) {
+    showAlert('Please fill in all fields');
+    return;
+  }
+
+  try {
+    hideAlert();
+    console.log("🔹 [Login] Starting connection...");
+    await client.connect();
+    console.log("✅ [Login] Connected to server");
+
+    const loginRes = await client.login(email, password);
+    console.log("✅ [Login] Login response:", loginRes);
+
+    // 🟢 store the JWT token for AUTH
+    client.token = loginRes.token;
+    console.log("🔸 [Login] Token stored in client:", client.token);
+
+    const authRes = await client.authenticate();
+    console.log("✅ [Login] Auth response:", authRes);
+
+    loginScreen.style.display = 'none';
+    app.classList.add('active');
+
+    document.getElementById('user-email').textContent = email;
+    document.getElementById('user-avatar').textContent = getInitials(email);
+
+    console.log("📨 [Login] Loading messages...");
+    loadMessages();
+  } catch (err) {
+    console.error("❌ [Login Error]", err);
+    showAlert(err.message);
+  }
+});
+
+
+
+    document.getElementById('register-btn').addEventListener('click', async () => {
+      const email = document.getElementById('register-email').value.trim();
+      const password = document.getElementById('register-password').value;
+      const passwordConfirm = document.getElementById('register-password-confirm').value;
+
+      if (!email || !password || !passwordConfirm) {
+        showAlert('Please fill in all fields');
+        return;
+      }
+
+      if (password !== passwordConfirm) {
+        showAlert('Passwords do not match');
+        return;
+      }
+
+      if (password.length < 8) {
+        showAlert('Password must be at least 8 characters');
+        return;
+      }
+
+      try {
+        hideAlert();
+        await client.connect();
+        await client.register(email, password);
+        showAlert('Account created! Please sign in.', 'success');
+        
+        document.getElementById('show-login-btn').click();
+        document.getElementById('login-email').value = email;
+      } catch (err) {
+        showAlert(err.message);
+      }
+    });
+
+    document.getElementById('logout-btn').addEventListener('click', async () => {
+      try {
+        await client.logout();
+      } catch (err) {
+        console.error('Logout error:', err);
+      }
+      
+      location.reload();
+    });
+
+    // Navigation
+    document.querySelectorAll('.nav-item').forEach(item => {
+      item.addEventListener('click', () => {
+        document.querySelectorAll('.nav-item').forEach(i => i.classList.remove('active'));
+        item.classList.add('active');
+        
+        currentFolder = item.dataset.folder;
+        document.getElementById('content-title').textContent = 
+          currentFolder.charAt(0).toUpperCase() + currentFolder.slice(1);
+        
+        messageView.classList.remove('active');
+        selectedMessages.clear();
+        loadMessages();
+      });
+    });
+
+    // Message List
+    async function loadMessages() {
+      messageList.innerHTML = '<div class="loading"><div class="spinner"></div></div>';
+      
+      try {
+        let response;
+        
+        if (currentFolder === 'inbox' || currentFolder === 'sent') {
+          response = await client.listMessages(currentFolder);
+          currentMessages = response.messages || [];
+        } else if (currentFolder === 'trash') {
+          response = await client.listTrash();
+          currentMessages = response.trash || [];
+        } else if (currentFolder === 'threads') {
+          response = await client.listThreads();
+          currentMessages = response.threads || [];
+        }
+
+        renderMessages();
+        updateInboxCount();
+      } catch (err) {
+        console.error('Load messages error:', err);
+        messageList.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon">⚠️</div>
+            <div class="empty-title">Failed to load messages</div>
+            <div class="empty-text">${escapeHtml(err.message)}</div>
+          </div>
+        `;
+      }
+    }
+
+    function renderMessages() {
+      if (currentMessages.length === 0) {
+        messageList.innerHTML = `
+          <div class="empty-state">
+            <div class="empty-icon">🔭</div>
+            <div class="empty-title">No messages</div>
+            <div class="empty-text">Your ${currentFolder} is empty</div>
+          </div>
+        `;
+        return;
+      }
+
+      messageList.innerHTML = currentMessages.map((msg, index) => {
+        const isUnread = currentFolder === 'inbox' && !msg.is_read;
+        
+        // Determine what to show in the sender column based on folder
+        let sender;
+        if (currentFolder === 'sent') {
+          // For sent, sender_name contains the recipients list from the server
+          sender = msg.sender_name || 'Unknown';
+        } else if (currentFolder === 'trash') {
+          // For trash, show sender or recipients
+          sender = msg.sender_name || 'Unknown';
+        } else if (currentFolder === 'threads') {
+          // For threads, show the other party
+          sender = msg.other_party || 'Unknown';
+        } else {
+          // For inbox, show sender
+          sender = msg.sender_name || 'Unknown';
+        }
+        
+        const subject = msg.subject || '(No subject)';
+        const time = formatTime(msg.ts || msg.last_ts);
+        
+        // Use msg.id for actual messages, hide checkbox for thread view
+        const showCheckbox = currentFolder !== 'threads';
+        const messageId = msg.id;
+        
+        return `
+          <div class="message-item ${isUnread ? 'unread' : ''}" data-index="${index}">
+            ${showCheckbox ? `<input type="checkbox" class="message-checkbox" data-id="${messageId}">` : '<span style="width: 18px;"></span>'}
+            <div class="message-sender">${escapeHtml(sender)}</div>
+            <div class="message-content">
+              <div class="message-subject">${escapeHtml(subject)}</div>
+              <div class="message-preview">${escapeHtml(msg.body || '').slice(0, 100)}</div>
+            </div>
+            <div class="message-time">${time}</div>
+          </div>
+        `;
+      }).join('');
+
+      // Add click handlers
+      messageList.querySelectorAll('.message-item').forEach(item => {
+        item.addEventListener('click', (e) => {
+          if (e.target.classList.contains('message-checkbox')) {
+            const id = parseInt(e.target.dataset.id);
+            if (e.target.checked) {
+              selectedMessages.add(id);
+            } else {
+              selectedMessages.delete(id);
+            }
+            return;
+          }
+          
+          const index = parseInt(item.dataset.index);
+          openMessage(currentMessages[index]);
+        });
+      });
+    }
+
+
+    async function openMessage(msg) {
+  try {
+    // Handle threads differently
+    if (currentFolder === 'threads') {
+      if (!msg.thread_id) {
+  showStatus('Invalid thread', 'error');
+  return;
+}
+const response = await client.sendCommand('LIST_THREAD', { thread_id: msg.thread_id });
+      
+      if (!response.messages || response.messages.length === 0) {
+        showStatus('Thread is empty', 'error');
+        return;
+      }
+      
+      // Display the first message as the main view
+      const firstMessage = response.messages[0];
+      currentViewMessage = { ...firstMessage, folder: 'threads', id: firstMessage.id };
+      
+      document.getElementById('view-subject').textContent = firstMessage.subject || '(No subject)';
+      document.getElementById('view-from').textContent = firstMessage.sender_name || 'Unknown';
+      document.getElementById('view-avatar').textContent = getInitials(firstMessage.sender_name || 'U');
+      document.getElementById('view-time').textContent = new Date(firstMessage.ts).toLocaleString();
+      
+      // Show all messages in the thread
+      let threadHtml = '';
+      response.messages.forEach((threadMsg, index) => {
+  threadHtml += `
+    <div style="border-left: 3px solid var(--primary); padding: 1.5rem; margin-bottom: 2rem; background: var(--bg); border-radius: 0.5rem;">
+      <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem;">
+        <div style="width: 32px; height: 32px; border-radius: 50%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-weight: 600; font-size: 0.875rem;">
+          ${getInitials(threadMsg.sender_name || 'U')}
+        </div>
+        <div>
+          <strong style="font-size: 1rem;">${escapeHtml(threadMsg.sender_name || 'Unknown')}</strong>
+          <div style="color: var(--text-secondary); font-size: 0.875rem;">
+            ${new Date(threadMsg.ts).toLocaleString()}
+          </div>
+        </div>
+      </div>
+      <div style="color: var(--text); line-height: 1.8; font-size: 1rem; padding: 1rem 0;">
+        ${escapeHtml(threadMsg.body || '').replace(/\n/g, '<br>')}
+      </div>
+    </div>
+  `;
+});
+      
+      document.getElementById('view-body').innerHTML = threadHtml;
+      document.getElementById('view-attachments').classList.add('hidden');
+      messageView.classList.add('active');
+      return;
+    }
+    
+    // Regular message handling (inbox/sent)
+    let response;
+    
+    if (currentFolder === 'sent') {
+      response = await client.readSentMessage(msg.id);
+    } else {
+      response = await client.readMessage(msg.id);
+    }
+    
+    const message = response.message;
+    currentViewMessage = { ...message, folder: currentFolder, id: message.id };
+    
+    document.getElementById('view-subject').textContent = message.subject || '(No subject)';
+    document.getElementById('view-from').textContent = message.sender_name || 'Unknown';
+    document.getElementById('view-avatar').textContent = getInitials(message.sender_name || 'U');
+    document.getElementById('view-time').textContent = new Date(message.ts).toLocaleString();
+    document.getElementById('view-body').innerHTML = escapeHtml(message.body || '').replace(/\n/g, '<br>');
+    
+    // Handle attachments
+    const attachmentsDiv = document.getElementById('view-attachments');
+    if (message.parts && message.parts.length > 0) {
+      attachmentsDiv.classList.remove('hidden');
+      attachmentsDiv.innerHTML = `
+        <div style="font-weight: 600; margin-bottom: 0.5rem;">Attachments (${message.parts.length})</div>
+        ${message.parts.map(part => `
+          <div class="attachment-item">
+            <span>📎</span>
+            <span>${escapeHtml(part.filename || 'Attachment')}</span>
+            <span style="margin-left: auto; color: var(--text-secondary); font-size: 0.875rem;">
+              ${part.part_type}
+            </span>
+          </div>
+        `).join('')}
+      `;
+    } else {
+      attachmentsDiv.classList.add('hidden');
+    }
+    
+    messageView.classList.add('active');
+    loadMessages(); // Refresh to update read status
+  } catch (err) {
+    console.error('Open message error:', err);
+    showStatus('Failed to load message', 'error');
+  }
+}
+
+    document.getElementById('back-btn').addEventListener('click', () => {
+      messageView.classList.remove('active');
+      currentViewMessage = null;
+    });
+
+    document.getElementById('reply-btn').addEventListener('click', () => {
+      if (!currentViewMessage) return;
+      
+      document.getElementById('compose-title').textContent = 'Reply';
+      document.getElementById('compose-to').value = currentViewMessage.sender_name || '';
+      document.getElementById('compose-subject').value = 
+        currentViewMessage.subject.startsWith('Re:') 
+          ? currentViewMessage.subject 
+          : 'Re: ' + currentViewMessage.subject;
+      document.getElementById('compose-body').value = '';
+      
+      composeModal.classList.add('active');
+    });
+
+    // Toolbar Actions
+    document.getElementById('select-all-btn').addEventListener('click', () => {
+      const checkboxes = messageList.querySelectorAll('.message-checkbox');
+      const allChecked = Array.from(checkboxes).every(cb => cb.checked);
+      
+      checkboxes.forEach(cb => {
+        cb.checked = !allChecked;
+        const id = parseInt(cb.dataset.id);
+        if (!allChecked) {
+          selectedMessages.add(id);
+        } else {
+          selectedMessages.delete(id);
+        }
+      });
+    });
+
+    document.getElementById('mark-read-btn').addEventListener('click', async () => {
+      if (selectedMessages.size === 0) {
+        showStatus('No messages selected', 'error');
+        return;
+      }
+
+      try {
+        for (const id of selectedMessages) {
+          await client.markMessage(id, true);
+        }
+        selectedMessages.clear();
+        showStatus('Messages marked as read', 'success');
+        loadMessages();
+      } catch (err) {
+        showStatus('Failed to mark messages', 'error');
+      }
+    });
+
+    document.getElementById('delete-btn').addEventListener('click', async () => {
+      if (selectedMessages.size === 0) {
+        showStatus('No messages selected', 'error');
+        return;
+      }
+
+      if (!confirm(`Delete ${selectedMessages.size} message(s)?`)) {
+        return;
+      }
+
+      try {
+        for (const id of selectedMessages) {
+          await client.deleteMessage(id, currentFolder);
+        }
+        selectedMessages.clear();
+        showStatus('Messages deleted', 'success');
+        loadMessages();
+      } catch (err) {
+        showStatus('Failed to delete messages', 'error');
+      }
+    });
+
+    document.getElementById('refresh-btn').addEventListener('click', () => {
+      loadMessages();
+      showStatus('Refreshed', 'success');
+    });
+
+    // Search
+    let searchTimeout;
+    document.getElementById('search-input').addEventListener('input', (e) => {
+      clearTimeout(searchTimeout);
+      const query = e.target.value.trim();
+      
+      if (!query) {
+        loadMessages();
+        return;
+      }
+
+      searchTimeout = setTimeout(async () => {
+        try {
+          const response = await client.searchMessages(query, currentFolder);
+          currentMessages = response.results || [];
+          renderMessages();
+        } catch (err) {
+          console.error('Search error:', err);
+          showStatus('Search failed', 'error');
+        }
+      }, 500);
+    });
+
+    // Compose
+    document.getElementById('compose-btn').addEventListener('click', () => {
+      document.getElementById('compose-title').textContent = 'New Message';
+      document.getElementById('compose-to').value = '';
+      document.getElementById('compose-cc').value = '';
+      document.getElementById('compose-subject').value = '';
+      document.getElementById('compose-body').value = '';
+      composeModal.classList.add('active');
+    });
+
+    document.getElementById('close-compose-btn').addEventListener('click', () => {
+      composeModal.classList.remove('active');
+    });
+
+    document.getElementById('cancel-compose-btn').addEventListener('click', () => {
+      composeModal.classList.remove('active');
+    });
+
+    document.getElementById('send-btn').addEventListener('click', async () => {
+      const to = document.getElementById('compose-to').value.trim();
+      const cc = document.getElementById('compose-cc').value.trim();
+      const subject = document.getElementById('compose-subject').value.trim();
+      const body = document.getElementById('compose-body').value;
+
+      if (!to) {
+        showStatus('Recipient required', 'error');
+        return;
+      }
+
+      if (!subject) {
+        showStatus('Subject required', 'error');
+        return;
+      }
+
+      try {
+        const ccList = cc ? cc.split(',').map(e => e.trim()).filter(e => e) : [];
+        
+        if (currentViewMessage && document.getElementById('compose-title').textContent === 'Reply') {
+          await client.replyToMessage(currentViewMessage.id, subject, body);
+        } else {
+          await client.sendMessage(to, subject, body, ccList);
+        }
+        
+        composeModal.classList.remove('active');
+        showStatus('Message sent!', 'success');
+        
+        if (currentFolder === 'sent') {
+          loadMessages();
+        }
+      } catch (err) {
+        console.error('Send error:', err);
+        showStatus(err.message, 'error');
+      }
+    });
+
+    // Update inbox count
+    async function updateInboxCount() {
+      try {
+        const response = await client.listMessages('inbox');
+        const unreadCount = (response.messages || []).filter(m => !m.is_read).length;
+        document.getElementById('inbox-count').textContent = unreadCount;
+      } catch (err) {
+        console.error('Update count error:', err);
+      }
+    }
+
+    // Keyboard shortcuts
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        if (composeModal.classList.contains('active')) {
+          composeModal.classList.remove('active');
+        } else if (messageView.classList.contains('active')) {
+          messageView.classList.remove('active');
+        }
+      } else if (e.key === 'c' && !e.ctrlKey && !e.metaKey && 
+                 document.activeElement.tagName !== 'INPUT' && 
+                 document.activeElement.tagName !== 'TEXTAREA') {
+        document.getElementById('compose-btn').click();
+      }
+    });
+
+    // Handle Enter key in login forms
+    document.getElementById('login-password').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        document.getElementById('login-btn').click();
+      }
+    });
+
+    document.getElementById('register-password-confirm').addEventListener('keypress', (e) => {
+      if (e.key === 'Enter') {
+        e.preventDefault();
+        document.getElementById('register-btn').click();
+      }
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,1884 @@
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T17:38:31.674Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 started successfully","timestamp":"2025-12-17T17:38:31.694Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T17:38:31.699Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T17:38:31.705Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T17:38:31.707Z"}
+{"level":"info","message":"FTS index rebuilt","timestamp":"2025-12-17T17:38:31.780Z"}
+{"code":"SQLITE_ERROR","errno":1,"level":"error","message":"Uncaught Exception: SQLITE_ERROR: no such column: is_draft","stack":"Error: SQLITE_ERROR: no such column: is_draft","timestamp":"2025-12-17T17:38:31.787Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T17:43:37.118Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 started successfully","timestamp":"2025-12-17T17:43:37.124Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T17:43:37.125Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T17:43:37.125Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T17:43:37.126Z"}
+{"level":"info","message":"FTS index rebuilt","timestamp":"2025-12-17T17:43:37.157Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:44:12.702Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:44:12.705Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T17:44:13.180Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:44:26.145Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:44:26.147Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T17:44:26.555Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T17:44:26.562Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-17T17:44:32.057Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T17:44:32.074Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T17:44:32.075Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:44:51.005Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:44:51.006Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T17:44:51.502Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:44:57.198Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:44:57.199Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:45:02.747Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:45:02.748Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T17:45:03.187Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T17:45:03.190Z"}
+{"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed","timestamp":"2025-12-17T17:45:46.139Z"}
+{"level":"info","message":"\n🛑 Shutting down...","timestamp":"2025-12-17T17:46:08.112Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T17:47:02.534Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 started successfully","timestamp":"2025-12-17T17:47:02.539Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T17:47:02.540Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T17:47:02.540Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T17:47:02.541Z"}
+{"level":"info","message":"FTS index rebuilt","timestamp":"2025-12-17T17:47:02.573Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:47:21.290Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:47:21.294Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T17:47:21.726Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:47:32.693Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:47:32.694Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T17:47:33.115Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:47:42.551Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:47:42.552Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T17:47:42.961Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T17:47:42.967Z"}
+{"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed","timestamp":"2025-12-17T17:48:18.119Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T17:50:07.703Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T17:50:07.706Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T17:50:07.706Z"}
+{"level":"info","message":"\n🛑 Shutting down...","timestamp":"2025-12-17T17:50:11.228Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T17:50:22.194Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 started successfully","timestamp":"2025-12-17T17:50:22.199Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T17:50:22.200Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T17:50:22.201Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T17:50:22.202Z"}
+{"level":"info","message":"FTS index rebuilt","timestamp":"2025-12-17T17:50:22.277Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:50:41.881Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:50:41.885Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T17:50:42.276Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:50:53.954Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:50:53.955Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T17:50:54.352Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:50:58.189Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:50:58.190Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T17:50:58.584Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T17:50:58.595Z"}
+{"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed","timestamp":"2025-12-17T17:51:16.831Z"}
+{"level":"info","message":"\n🛑 Shutting down...","timestamp":"2025-12-17T17:53:19.551Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T17:55:30.914Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 started successfully","timestamp":"2025-12-17T17:55:30.920Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T17:55:30.921Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T17:55:30.921Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T17:55:30.922Z"}
+{"level":"info","message":"FTS index rebuilt","timestamp":"2025-12-17T17:55:30.982Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:56:07.433Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:56:07.438Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T17:56:07.829Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:56:21.497Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:56:21.498Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T17:56:21.909Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T17:56:28.488Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T17:56:28.489Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T17:56:28.898Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T17:56:28.905Z"}
+{"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed","timestamp":"2025-12-17T17:56:53.001Z"}
+{"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed","timestamp":"2025-12-17T17:57:31.731Z"}
+{"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed","timestamp":"2025-12-17T17:57:32.929Z"}
+{"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed","timestamp":"2025-12-17T17:58:39.317Z"}
+{"level":"info","message":"\n🛑 Shutting down...","timestamp":"2025-12-17T18:00:36.535Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T18:09:57.411Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 started successfully","timestamp":"2025-12-17T18:09:57.416Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T18:09:57.417Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T18:09:57.417Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T18:09:57.418Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T18:10:25.959Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T18:10:25.962Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T18:10:26.330Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T18:10:40.935Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T18:10:40.936Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T18:10:41.320Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T18:10:58.427Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T18:10:58.427Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T18:10:58.848Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T18:10:58.855Z"}
+{"__augmented":true,"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed\n--> in Statement#run([\n  'vik$yolo.com',\n  'kill me bruh',\n  'why does not  thiss work?',\n  1765995082,\n  null\n], [Function (anonymous)])\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:76:19)\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:20:19)\n    at C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:97:8\n    at new Promise (<anonymous>)\n    at db.runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:96:10)\n    at Framer.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:968:37)","timestamp":"2025-12-17T18:11:22.052Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T18:26:16.695Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 started successfully","timestamp":"2025-12-17T18:26:16.701Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T18:26:16.702Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T18:26:16.703Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T18:26:16.704Z"}
+{"level":"info","message":"✓ WAL mode enabled","timestamp":"2025-12-17T18:26:16.708Z"}
+{"level":"info","message":"✓ Synchronous mode set to NORMAL","timestamp":"2025-12-17T18:26:16.732Z"}
+{"level":"info","message":"✓ WAL checkpoint complete","timestamp":"2025-12-17T18:26:16.757Z"}
+{"level":"info","message":"✓ Database integrity check passed","timestamp":"2025-12-17T18:26:16.759Z"}
+{"level":"info","message":"✅ Database initialization complete","timestamp":"2025-12-17T18:26:16.760Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T18:26:40.077Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T18:26:40.079Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T18:26:40.465Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T18:26:50.940Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T18:26:50.942Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T18:26:51.326Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T18:26:59.690Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T18:26:59.691Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T18:27:00.078Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T18:27:00.082Z"}
+{"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed","timestamp":"2025-12-17T18:27:15.762Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T18:37:10.351Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 started successfully","timestamp":"2025-12-17T18:37:10.357Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T18:37:10.358Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T18:37:10.359Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T18:37:10.360Z"}
+{"level":"info","message":"✓ Database file opened","timestamp":"2025-12-17T18:37:10.361Z"}
+{"level":"info","message":"✓ WAL mode enabled","timestamp":"2025-12-17T18:37:10.364Z"}
+{"level":"info","message":"✓ Synchronous mode set to NORMAL","timestamp":"2025-12-17T18:37:10.383Z"}
+{"level":"info","message":"✓ WAL checkpoint complete","timestamp":"2025-12-17T18:37:10.405Z"}
+{"level":"info","message":"✓ Database integrity check passed","timestamp":"2025-12-17T18:37:10.407Z"}
+{"level":"info","message":"✅ Database initialization complete","timestamp":"2025-12-17T18:37:10.408Z"}
+{"level":"info","message":"🟢 DB READY - Server can now accept requests","timestamp":"2025-12-17T18:37:10.408Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T18:37:33.410Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T18:37:33.412Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T18:37:33.765Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T18:37:46.049Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T18:37:46.051Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T18:37:46.432Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T18:37:55.187Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T18:37:55.188Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T18:37:55.576Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T18:37:55.581Z"}
+{"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed","timestamp":"2025-12-17T18:38:27.393Z"}
+{"level":"info","message":"\n🛑 Shutting down...","timestamp":"2025-12-17T18:39:58.013Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T18:40:02.999Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 started successfully","timestamp":"2025-12-17T18:40:03.006Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T18:40:03.007Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T18:40:03.008Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T18:40:03.009Z"}
+{"level":"info","message":"✓ Database file opened","timestamp":"2025-12-17T18:40:03.010Z"}
+{"level":"info","message":"✓ WAL mode enabled","timestamp":"2025-12-17T18:40:03.015Z"}
+{"level":"info","message":"✓ Synchronous mode set to NORMAL","timestamp":"2025-12-17T18:40:03.016Z"}
+{"level":"info","message":"✓ WAL checkpoint complete","timestamp":"2025-12-17T18:40:03.023Z"}
+{"level":"info","message":"✓ Database integrity check passed","timestamp":"2025-12-17T18:40:03.025Z"}
+{"level":"info","message":"✅ Database initialization complete","timestamp":"2025-12-17T18:40:03.026Z"}
+{"level":"info","message":"🟢 DB READY - Server can now accept requests","timestamp":"2025-12-17T18:40:03.026Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T18:40:25.243Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T18:40:25.246Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T18:40:25.628Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T18:40:25.634Z"}
+{"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed","timestamp":"2025-12-17T18:40:38.960Z"}
+{"level":"info","message":"\n🛑 Shutting down...","timestamp":"2025-12-17T18:50:21.219Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-17T19:12:45.692Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-17T19:12:45.695Z"}
+{"level":"info","message":"🆕 Creating new database file","timestamp":"2025-12-17T19:12:45.696Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-17T19:12:45.699Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-17T19:12:45.699Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-17T19:12:45.703Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-17T19:12:45.704Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-17T19:12:45.705Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-17T19:12:45.706Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-17T19:12:45.706Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-17T19:12:45.730Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-17T19:12:45.738Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-17T19:12:45.746Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-17T19:12:45.755Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-17T19:12:45.763Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-17T19:12:45.773Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-17T19:12:45.781Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-17T19:12:45.790Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-17T19:12:45.798Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-17T19:12:45.806Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-17T19:12:45.814Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-17T19:12:45.822Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-17T19:12:45.823Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-17T19:12:45.831Z"}
+{"level":"info","message":"⚡ Creating FTS triggers...","timestamp":"2025-12-17T19:12:45.831Z"}
+{"level":"info","message":"✓ AFTER INSERT trigger ready","timestamp":"2025-12-17T19:12:45.839Z"}
+{"level":"info","message":"✓ AFTER DELETE trigger ready","timestamp":"2025-12-17T19:12:45.847Z"}
+{"level":"info","message":"✓ AFTER UPDATE trigger ready","timestamp":"2025-12-17T19:12:45.855Z"}
+{"level":"info","message":"✓ Thread trigger ready","timestamp":"2025-12-17T19:12:45.862Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-17T19:12:45.863Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-17T19:12:45.969Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-17T19:12:45.969Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-17T19:12:45.971Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-17T19:12:45.972Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-17T19:12:45.972Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T19:12:46.008Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-17T19:12:46.015Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-17T19:12:46.015Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T19:12:46.016Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T19:12:46.016Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T19:12:46.017Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:13:18.114Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:13:18.118Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T19:13:18.791Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:13:23.200Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:13:23.201Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T19:13:23.829Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T19:13:23.837Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-17T19:13:25.763Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T19:13:25.771Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T19:13:25.795Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:13:41.687Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:13:41.687Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T19:13:42.301Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:13:51.062Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:13:51.063Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T19:13:51.812Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T19:13:51.819Z"}
+{"__augmented":true,"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed\n--> in Statement#run([ 'vik$yolo.com', 'teszt', 'no működik vagy nem?', 1765998862, null ], [Function: replacement])\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:76:19)\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:20:19)\n    at C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:103:8\n    at new Promise (<anonymous>)\n    at runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:102:10)\n    at db.runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:164:40)\n    at Framer.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:1089:37)","timestamp":"2025-12-17T19:14:22.082Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-17T19:26:02.172Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-17T19:26:02.174Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-17T19:26:15.698Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-17T19:26:15.701Z"}
+{"level":"info","message":"🆕 Creating new database file","timestamp":"2025-12-17T19:26:15.702Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-17T19:26:15.705Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-17T19:26:15.705Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-17T19:26:15.708Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-17T19:26:15.710Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-17T19:26:15.710Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-17T19:26:15.711Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-17T19:26:15.711Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-17T19:26:15.735Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-17T19:26:15.743Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-17T19:26:15.751Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-17T19:26:15.760Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-17T19:26:15.767Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-17T19:26:15.776Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-17T19:26:15.784Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-17T19:26:15.792Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-17T19:26:15.801Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-17T19:26:15.808Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-17T19:26:15.817Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-17T19:26:15.825Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-17T19:26:15.825Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-17T19:26:15.833Z"}
+{"level":"info","message":"⚡ Creating FTS triggers...","timestamp":"2025-12-17T19:26:15.834Z"}
+{"level":"info","message":"✓ AFTER INSERT trigger ready","timestamp":"2025-12-17T19:26:15.841Z"}
+{"level":"info","message":"✓ AFTER DELETE trigger ready","timestamp":"2025-12-17T19:26:15.849Z"}
+{"level":"info","message":"✓ AFTER UPDATE trigger ready","timestamp":"2025-12-17T19:26:15.857Z"}
+{"level":"info","message":"✓ Thread trigger ready","timestamp":"2025-12-17T19:26:15.865Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-17T19:26:15.865Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-17T19:26:15.975Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-17T19:26:15.976Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-17T19:26:15.978Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-17T19:26:15.978Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-17T19:26:15.979Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T19:26:16.016Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-17T19:26:16.022Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-17T19:26:16.023Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T19:26:16.023Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T19:26:16.024Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T19:26:16.024Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:26:31.171Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:26:31.174Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T19:26:31.771Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:26:33.343Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:26:33.344Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T19:26:33.927Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T19:26:33.934Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-17T19:26:35.559Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T19:26:35.567Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T19:26:35.592Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:26:50.693Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:26:50.693Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T19:26:51.366Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:27:02.448Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:27:02.449Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T19:27:03.133Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T19:27:03.140Z"}
+{"__augmented":true,"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed\n--> in Statement#run([ 'vik$yolo.com', 'test', 'működj', 1765999640, null ], [Function: replacement])\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:76:19)\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:20:19)\n    at C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:103:8\n    at new Promise (<anonymous>)\n    at runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:102:10)\n    at db.runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:164:40)\n    at Framer.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:1089:37)","timestamp":"2025-12-17T19:27:20.157Z"}
+{"__augmented":true,"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed\n--> in Statement#run([ 'vik$yolo.com', 'test', 'működj', 1765999649, null ], [Function: replacement])\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:76:19)\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:20:19)\n    at C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:103:8\n    at new Promise (<anonymous>)\n    at runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:102:10)\n    at db.runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:164:40)\n    at Framer.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:1089:37)","timestamp":"2025-12-17T19:27:29.564Z"}
+{"__augmented":true,"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed\n--> in Statement#run([ 'vik$yolo.com', 'test', 'működj', 1765999656, null ], [Function: replacement])\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:76:19)\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:20:19)\n    at C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:103:8\n    at new Promise (<anonymous>)\n    at runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:102:10)\n    at db.runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:164:40)\n    at Framer.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:1089:37)","timestamp":"2025-12-17T19:27:36.370Z"}
+{"__augmented":true,"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed\n--> in Statement#run([ 'vik$yolo.com', 'test', 'működj', 1765999663, null ], [Function: replacement])\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:76:19)\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:20:19)\n    at C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:103:8\n    at new Promise (<anonymous>)\n    at runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:102:10)\n    at db.runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:164:40)\n    at Framer.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:1089:37)","timestamp":"2025-12-17T19:27:43.485Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-17T19:30:36.586Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-17T19:30:36.588Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-17T19:30:44.028Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-17T19:30:44.031Z"}
+{"level":"info","message":"🆕 Creating new database file","timestamp":"2025-12-17T19:30:44.032Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-17T19:30:44.034Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-17T19:30:44.035Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-17T19:30:44.038Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-17T19:30:44.039Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-17T19:30:44.040Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-17T19:30:44.041Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-17T19:30:44.042Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-17T19:30:44.060Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-17T19:30:44.065Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-17T19:30:44.068Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-17T19:30:44.072Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-17T19:30:44.078Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-17T19:30:44.082Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-17T19:30:44.085Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-17T19:30:44.090Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-17T19:30:44.096Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-17T19:30:44.101Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-17T19:30:44.105Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-17T19:30:44.109Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-17T19:30:44.109Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-17T19:30:44.114Z"}
+{"level":"info","message":"⚡ Creating FTS triggers...","timestamp":"2025-12-17T19:30:44.115Z"}
+{"level":"info","message":"✓ AFTER INSERT trigger ready","timestamp":"2025-12-17T19:30:44.118Z"}
+{"level":"info","message":"✓ AFTER DELETE trigger ready","timestamp":"2025-12-17T19:30:44.122Z"}
+{"level":"info","message":"✓ AFTER UPDATE trigger ready","timestamp":"2025-12-17T19:30:44.126Z"}
+{"level":"info","message":"✓ Thread trigger ready","timestamp":"2025-12-17T19:30:44.131Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-17T19:30:44.132Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-17T19:30:44.176Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-17T19:30:44.177Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-17T19:30:44.178Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-17T19:30:44.179Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-17T19:30:44.179Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T19:30:44.216Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-17T19:30:44.220Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-17T19:30:44.221Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T19:30:44.221Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T19:30:44.221Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T19:30:44.222Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:31:04.104Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:31:04.107Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T19:31:04.804Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:31:10.035Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:31:10.036Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T19:31:10.701Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T19:31:10.709Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-17T19:31:12.217Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T19:31:12.224Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T19:31:12.247Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:31:23.624Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:31:23.625Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T19:31:24.272Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:31:26.286Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:31:26.287Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T19:31:27.155Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T19:31:27.160Z"}
+{"__augmented":true,"code":"SQLITE_CORRUPT","errno":11,"level":"error","message":"SEND error: SQLITE_CORRUPT: database disk image is malformed","stack":"Error: SQLITE_CORRUPT: database disk image is malformed\n--> in Statement#run([\n  'bruh$yolo.com',\n  'ooga booga',\n  'ooga booga nigga\\n',\n  1765999906,\n  null\n], [Function: replacement])\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:76:19)\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:20:19)\n    at C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:103:8\n    at new Promise (<anonymous>)\n    at runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:102:10)\n    at db.runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:164:40)\n    at Framer.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:1090:37)","timestamp":"2025-12-17T19:31:46.316Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-17T19:54:15.797Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-17T19:54:15.800Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-17T19:54:24.624Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-17T19:54:24.628Z"}
+{"level":"info","message":"🆕 Creating new database file","timestamp":"2025-12-17T19:54:24.629Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-17T19:54:24.632Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-17T19:54:24.632Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-17T19:54:24.635Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-17T19:54:24.636Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-17T19:54:24.636Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-17T19:54:24.637Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-17T19:54:24.638Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-17T19:54:24.659Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-17T19:54:24.667Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-17T19:54:24.675Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-17T19:54:24.683Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-17T19:54:24.690Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-17T19:54:24.698Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-17T19:54:24.706Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-17T19:54:24.713Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-17T19:54:24.720Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-17T19:54:24.727Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-17T19:54:24.735Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-17T19:54:24.742Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-17T19:54:24.743Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-17T19:54:24.750Z"}
+{"level":"info","message":"⚡ Creating FTS triggers...","timestamp":"2025-12-17T19:54:24.750Z"}
+{"level":"info","message":"✓ AFTER INSERT trigger ready","timestamp":"2025-12-17T19:54:24.757Z"}
+{"level":"info","message":"✓ AFTER DELETE trigger ready","timestamp":"2025-12-17T19:54:24.764Z"}
+{"level":"info","message":"✓ AFTER UPDATE trigger ready","timestamp":"2025-12-17T19:54:24.771Z"}
+{"level":"info","message":"✓ Thread trigger ready","timestamp":"2025-12-17T19:54:24.778Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-17T19:54:24.779Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-17T19:54:24.876Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-17T19:54:24.877Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-17T19:54:24.879Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-17T19:54:24.879Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-17T19:54:24.880Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T19:54:24.921Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-17T19:54:24.927Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-17T19:54:24.927Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T19:54:24.928Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T19:54:24.928Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T19:54:24.929Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:54:43.660Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:54:43.664Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T19:54:44.511Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:54:46.871Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:54:46.872Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T19:54:47.649Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T19:54:47.658Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-17T19:54:49.089Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T19:54:49.096Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T19:54:49.118Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:55:05.487Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:55:05.488Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T19:55:06.314Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:55:07.436Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:55:07.437Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T19:55:08.024Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T19:55:08.030Z"}
+{"__augmented":true,"code":"SQLITE_MISMATCH","errno":20,"level":"error","message":"SEND error: SQLITE_MISMATCH: datatype mismatch","stack":"Error: SQLITE_MISMATCH: datatype mismatch\n--> in Statement#run([\n  '205ac200-2ca4-4794-94cb-f526f481731b',\n  'bruh$yolo.com',\n  'teszt',\n  'működj már',\n  1766001330\n], [Function: replacement])\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:76:19)\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:20:19)\n    at C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:103:8\n    at new Promise (<anonymous>)\n    at runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:102:10)\n    at db.runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:164:40)\n    at Framer.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:1819:31)","timestamp":"2025-12-17T19:55:30.518Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-17T19:58:12.472Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-17T19:58:12.475Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-17T19:58:18.495Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-17T19:58:18.498Z"}
+{"level":"info","message":"🆕 Creating new database file","timestamp":"2025-12-17T19:58:18.499Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-17T19:58:18.502Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-17T19:58:18.502Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-17T19:58:18.505Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-17T19:58:18.506Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-17T19:58:18.506Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-17T19:58:18.507Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-17T19:58:18.507Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-17T19:58:18.530Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-17T19:58:18.538Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-17T19:58:18.545Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-17T19:58:18.553Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-17T19:58:18.560Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-17T19:58:18.568Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-17T19:58:18.575Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-17T19:58:18.584Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-17T19:58:18.592Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-17T19:58:18.599Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-17T19:58:18.607Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-17T19:58:18.615Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-17T19:58:18.615Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-17T19:58:18.623Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-17T19:58:18.624Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-17T19:58:18.722Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-17T19:58:18.723Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-17T19:58:18.725Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-17T19:58:18.725Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-17T19:58:18.726Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T19:58:18.769Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-17T19:58:18.773Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-17T19:58:18.774Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T19:58:18.774Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T19:58:18.774Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T19:58:18.775Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:58:33.300Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:58:33.304Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-17T19:58:33.996Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:58:36.120Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:58:36.121Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T19:58:36.827Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T19:58:36.836Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-17T19:58:39.093Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T19:58:39.100Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T19:58:39.123Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:58:51.858Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:58:51.859Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-17T19:58:52.548Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T19:58:53.682Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T19:58:53.683Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T19:58:54.260Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T19:58:54.266Z"}
+{"__augmented":true,"code":"SQLITE_MISMATCH","errno":20,"level":"error","message":"SEND error: SQLITE_MISMATCH: datatype mismatch","stack":"Error: SQLITE_MISMATCH: datatype mismatch\n--> in Statement#run([\n  'ec3f1783-ed71-46fc-a310-847849fa5679',\n  'bruh$yolo.com',\n  'testz biga',\n  'te állat',\n  1766001549\n], [Function: replacement])\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:76:19)\n    at Database.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\sqlite3\\lib\\sqlite3.js:20:19)\n    at C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:103:8\n    at new Promise (<anonymous>)\n    at runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:102:10)\n    at db.runAsync (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:164:40)\n    at Framer.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:1782:31)","timestamp":"2025-12-17T19:59:09.389Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-17T20:01:53.695Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-17T20:01:53.698Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-17T20:01:56.138Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-17T20:01:56.142Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-17T20:01:56.142Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-17T20:01:56.145Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-17T20:01:56.146Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-17T20:01:56.149Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-17T20:01:56.149Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-17T20:01:56.150Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-17T20:01:56.151Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-17T20:01:56.152Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-17T20:01:56.152Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-17T20:01:56.153Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-17T20:01:56.154Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-17T20:01:56.155Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-17T20:01:56.155Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-17T20:01:56.156Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-17T20:01:56.157Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-17T20:01:56.158Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-17T20:01:56.159Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-17T20:01:56.160Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-17T20:01:56.160Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-17T20:01:56.161Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-17T20:01:56.162Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-17T20:01:56.162Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-17T20:01:56.163Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-17T20:01:56.164Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-17T20:01:56.164Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-17T20:01:56.169Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-17T20:01:56.170Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-17T20:01:56.172Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-17T20:01:56.172Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-17T20:01:56.173Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T20:01:56.209Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-17T20:01:56.214Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-17T20:01:56.214Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T20:01:56.214Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T20:01:56.215Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T20:01:56.216Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T20:02:05.879Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T20:02:05.884Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T20:02:06.491Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T20:02:06.501Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-17T20:02:35.604Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T20:02:35.610Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T20:02:48.326Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T20:02:48.327Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T20:02:48.941Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T20:02:48.945Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T20:03:23.035Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T20:03:56.422Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T20:03:56.423Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T20:03:57.004Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T20:03:57.011Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-17T20:09:13.180Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-17T20:09:13.182Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-17T20:09:14.677Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-17T20:09:14.681Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-17T20:09:14.681Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-17T20:09:14.684Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-17T20:09:14.685Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-17T20:09:14.688Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-17T20:09:14.689Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-17T20:09:14.690Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-17T20:09:14.691Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-17T20:09:14.692Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-17T20:09:14.692Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-17T20:09:14.693Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-17T20:09:14.695Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-17T20:09:14.696Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-17T20:09:14.697Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-17T20:09:14.698Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-17T20:09:14.699Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-17T20:09:14.700Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-17T20:09:14.701Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-17T20:09:14.702Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-17T20:09:14.703Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-17T20:09:14.704Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-17T20:09:14.705Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-17T20:09:14.706Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-17T20:09:14.706Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-17T20:09:14.707Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-17T20:09:14.707Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-17T20:09:14.712Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-17T20:09:14.713Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-17T20:09:14.714Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-17T20:09:14.715Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-17T20:09:14.715Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T20:09:14.748Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-17T20:09:14.753Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-17T20:09:14.753Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T20:09:14.754Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T20:09:14.754Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T20:09:14.755Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T20:09:30.670Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T20:09:30.674Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T20:09:31.377Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T20:09:31.389Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-17T20:15:02.943Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-17T20:15:02.946Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-17T20:15:05.173Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-17T20:15:05.176Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-17T20:15:05.177Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-17T20:15:05.180Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-17T20:15:05.181Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-17T20:15:05.185Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-17T20:15:05.193Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-17T20:15:05.195Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-17T20:15:05.196Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-17T20:15:05.197Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-17T20:15:05.198Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-17T20:15:05.198Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-17T20:15:05.200Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-17T20:15:05.201Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-17T20:15:05.201Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-17T20:15:05.203Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-17T20:15:05.205Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-17T20:15:05.211Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-17T20:15:05.214Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-17T20:15:05.215Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-17T20:15:05.216Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-17T20:15:05.217Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-17T20:15:05.217Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-17T20:15:05.218Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-17T20:15:05.218Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-17T20:15:05.221Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-17T20:15:05.224Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-17T20:15:05.237Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-17T20:15:05.238Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-17T20:15:05.240Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-17T20:15:05.241Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-17T20:15:05.241Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T20:15:05.274Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-17T20:15:05.280Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-17T20:15:05.282Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T20:15:05.282Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T20:15:05.282Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T20:15:05.283Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T20:15:20.715Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T20:15:20.719Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T20:15:21.372Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T20:15:21.381Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T20:15:29.401Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T20:15:49.791Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T20:15:49.792Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T20:15:50.702Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T20:15:50.708Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-17T20:19:17.762Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-17T20:19:17.764Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-17T20:19:20.598Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-17T20:19:20.601Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-17T20:19:20.602Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-17T20:19:20.604Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-17T20:19:20.605Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-17T20:19:20.608Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-17T20:19:20.609Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-17T20:19:20.609Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-17T20:19:20.610Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-17T20:19:20.611Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-17T20:19:20.611Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-17T20:19:20.612Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-17T20:19:20.613Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-17T20:19:20.614Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-17T20:19:20.614Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-17T20:19:20.615Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-17T20:19:20.616Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-17T20:19:20.617Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-17T20:19:20.617Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-17T20:19:20.618Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-17T20:19:20.619Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-17T20:19:20.620Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-17T20:19:20.620Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-17T20:19:20.621Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-17T20:19:20.621Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-17T20:19:20.622Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-17T20:19:20.622Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-17T20:19:20.628Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-17T20:19:20.628Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-17T20:19:20.630Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-17T20:19:20.630Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-17T20:19:20.631Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T20:19:20.669Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-17T20:19:20.674Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-17T20:19:20.675Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T20:19:20.675Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T20:19:20.676Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T20:19:20.676Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T20:19:40.072Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T20:19:40.077Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T20:19:40.782Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T20:19:40.792Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T20:21:45.423Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-17T20:21:47.914Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-17T20:21:47.916Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-17T20:21:51.082Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-17T20:21:51.085Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-17T20:21:51.086Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-17T20:21:51.089Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-17T20:21:51.089Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-17T20:21:51.093Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-17T20:21:51.093Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-17T20:21:51.094Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-17T20:21:51.095Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-17T20:21:51.096Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-17T20:21:51.096Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-17T20:21:51.097Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-17T20:21:51.098Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-17T20:21:51.099Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-17T20:21:51.100Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-17T20:21:51.101Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-17T20:21:51.102Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-17T20:21:51.103Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-17T20:21:51.103Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-17T20:21:51.104Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-17T20:21:51.105Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-17T20:21:51.106Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-17T20:21:51.106Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-17T20:21:51.107Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-17T20:21:51.108Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-17T20:21:51.108Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-17T20:21:51.108Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-17T20:21:51.114Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-17T20:21:51.115Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-17T20:21:51.116Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-17T20:21:51.116Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-17T20:21:51.116Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-17T20:21:51.152Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-17T20:21:51.156Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-17T20:21:51.157Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-17T20:21:51.157Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-17T20:21:51.157Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-17T20:21:51.158Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T20:22:02.502Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T20:22:02.507Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-17T20:22:03.187Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-17T20:22:03.197Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T20:38:03.858Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T20:41:29.371Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T20:41:29.372Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T20:41:29.948Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T20:41:29.953Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T20:44:55.546Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-17T21:07:11.863Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-17T21:07:11.864Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-17T21:07:12.933Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-17T21:07:12.943Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-17T21:08:58.864Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T14:45:17.106Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T14:45:17.111Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T14:45:17.111Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T14:45:17.115Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T14:45:17.115Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T14:45:17.121Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T14:45:17.122Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T14:45:17.123Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T14:45:17.123Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T14:45:17.124Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T14:45:17.124Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T14:45:17.124Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T14:45:17.126Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T14:45:17.126Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T14:45:17.127Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T14:45:17.128Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T14:45:17.129Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T14:45:17.129Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T14:45:17.130Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T14:45:17.131Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T14:45:17.133Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T14:45:17.134Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T14:45:17.136Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T14:45:17.137Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T14:45:17.137Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T14:45:17.138Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T14:45:17.139Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T14:45:17.146Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T14:45:17.149Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T14:45:17.151Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T14:45:17.152Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T14:45:17.152Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T14:45:17.206Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T14:45:17.214Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T14:45:17.215Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T14:45:17.216Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T14:45:17.216Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T14:45:17.217Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:09:18.497Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:09:18.501Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:09:26.329Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:09:26.330Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T15:09:27.013Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T15:09:27.027Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T15:14:47.422Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T15:14:47.424Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T15:23:07.191Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T15:23:07.194Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T15:23:07.195Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T15:23:07.197Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T15:23:07.198Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T15:23:07.201Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T15:23:07.202Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T15:23:07.203Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T15:23:07.204Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T15:23:07.206Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T15:23:07.207Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T15:23:07.207Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T15:23:07.209Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T15:23:07.210Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T15:23:07.211Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T15:23:07.212Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T15:23:07.217Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T15:23:07.219Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T15:23:07.221Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T15:23:07.227Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T15:23:07.230Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T15:23:07.231Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T15:23:07.232Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T15:23:07.233Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T15:23:07.234Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T15:23:07.235Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T15:23:07.236Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T15:23:07.240Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T15:23:07.242Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T15:23:07.255Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T15:23:07.265Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T15:23:07.267Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T15:23:07.334Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T15:23:07.349Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T15:23:07.350Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T15:23:07.351Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T15:23:07.352Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T15:23:07.354Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:23:23.954Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:23:23.959Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T15:23:24.644Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T15:27:40.268Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:27:52.996Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:27:52.997Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T15:27:53.311Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T15:27:53.315Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-18T15:28:24.440Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T15:28:24.443Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:28:37.180Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:28:37.181Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-18T15:28:37.489Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-18T15:28:37.492Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T15:30:28.265Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:30:44.288Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:30:44.289Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-18T15:30:45.104Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-18T15:30:45.111Z"}
+{"level":"info","message":"User logged out: bruh$yolo.com","timestamp":"2025-12-18T15:31:58.085Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T15:31:58.089Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:32:12.449Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:32:12.450Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T15:32:13.116Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T15:32:13.123Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T15:35:25.846Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:35:43.239Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:35:43.240Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T15:35:43.551Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T15:35:43.554Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T15:45:55.456Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:46:08.253Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:46:08.255Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T15:46:09.328Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T15:46:09.336Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T15:48:44.501Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:48:51.607Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:48:51.608Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T15:48:52.649Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T15:48:52.660Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T15:54:12.281Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T15:54:12.290Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T15:54:16.471Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T15:54:16.480Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T15:54:16.482Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T15:54:16.488Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T15:54:16.489Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T15:54:16.501Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T15:54:16.502Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T15:54:16.504Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T15:54:16.506Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T15:54:16.508Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T15:54:16.510Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T15:54:16.511Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T15:54:16.515Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T15:54:16.517Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T15:54:16.519Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T15:54:16.520Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T15:54:16.522Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T15:54:16.525Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T15:54:16.526Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T15:54:16.529Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T15:54:16.531Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T15:54:16.536Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T15:54:16.538Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T15:54:16.540Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T15:54:16.542Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T15:54:16.547Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T15:54:16.548Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T15:54:16.565Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T15:54:16.567Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T15:54:16.570Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T15:54:16.571Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T15:54:16.572Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T15:54:16.658Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T15:54:16.670Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T15:54:16.671Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T15:54:16.672Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T15:54:16.673Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T15:54:16.675Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:54:37.348Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:54:37.356Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T15:54:40.785Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:55:08.020Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:55:08.021Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T15:55:11.025Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:55:19.867Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:55:19.869Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T15:55:20.851Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T15:55:20.868Z"}
+{"body":true,"level":"warn","message":"REPLY hiba: hiányzó paraméterek","subject":false,"timestamp":"2025-12-18T15:55:28.323Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T15:56:30.415Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T15:56:30.420Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T15:56:39.347Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T15:56:39.355Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T15:56:39.356Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T15:56:39.362Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T15:56:39.363Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T15:56:39.376Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T15:56:39.377Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T15:56:39.378Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T15:56:39.380Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T15:56:39.381Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T15:56:39.383Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T15:56:39.384Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T15:56:39.387Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T15:56:39.390Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T15:56:39.393Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T15:56:39.397Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T15:56:39.399Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T15:56:39.404Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T15:56:39.408Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T15:56:39.412Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T15:56:39.415Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T15:56:39.418Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T15:56:39.420Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T15:56:39.422Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T15:56:39.423Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T15:56:39.426Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T15:56:39.427Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T15:56:39.443Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T15:56:39.444Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T15:56:39.448Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T15:56:39.449Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T15:56:39.450Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T15:56:39.538Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T15:56:39.550Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T15:56:39.551Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T15:56:39.552Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T15:56:39.553Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T15:56:39.555Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T15:56:51.224Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T15:56:51.230Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T15:56:52.655Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T15:56:52.671Z"}
+{"body":true,"level":"warn","message":"REPLY hiba: hiányzó paraméterek","subject":false,"timestamp":"2025-12-18T15:56:58.583Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T16:07:45.029Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T16:07:45.031Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T16:07:48.154Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T16:07:48.156Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T16:07:48.157Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T16:07:48.159Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T16:07:48.159Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T16:07:48.161Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T16:07:48.162Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T16:07:48.162Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T16:07:48.163Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T16:07:48.163Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T16:07:48.164Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T16:07:48.164Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T16:07:48.165Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T16:07:48.165Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T16:07:48.165Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T16:07:48.166Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T16:07:48.167Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T16:07:48.167Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T16:07:48.168Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T16:07:48.168Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T16:07:48.169Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T16:07:48.169Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T16:07:48.170Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T16:07:48.170Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T16:07:48.171Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T16:07:48.171Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T16:07:48.171Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T16:07:48.177Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T16:07:48.177Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T16:07:48.179Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T16:07:48.180Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T16:07:48.180Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T16:07:48.208Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T16:07:48.212Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T16:07:48.212Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T16:07:48.213Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T16:07:48.213Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T16:07:48.213Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:11:44.088Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:11:44.090Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T16:11:44.332Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T16:11:44.338Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T16:27:00.260Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T16:27:00.265Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T16:27:03.493Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T16:27:03.496Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T16:27:03.496Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T16:27:03.498Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T16:27:03.498Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T16:27:03.501Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T16:27:03.502Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T16:27:03.502Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T16:27:03.503Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T16:27:03.503Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T16:27:03.504Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T16:27:03.504Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T16:27:03.505Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T16:27:03.505Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T16:27:03.505Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T16:27:03.506Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T16:27:03.506Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T16:27:03.507Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T16:27:03.508Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T16:27:03.508Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T16:27:03.509Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T16:27:03.509Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T16:27:03.510Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T16:27:03.510Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T16:27:03.510Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T16:27:03.511Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T16:27:03.511Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T16:27:03.515Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T16:27:03.516Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T16:27:03.518Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T16:27:03.519Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T16:27:03.519Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T16:27:03.547Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T16:27:03.550Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T16:27:03.551Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T16:27:03.551Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T16:27:03.551Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T16:27:03.552Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:27:20.376Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:27:20.379Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T16:27:20.794Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T16:27:20.800Z"}
+{"level":"error","message":"Command error: parent is not defined","stack":"ReferenceError: parent is not defined\n    at Framer.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:1028:17)\n    at Framer.emit (node:events:514:28)\n    at Framer.push (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:813:16)\n    at EventEmitter.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:842:37)\n    at EventEmitter.emit (node:events:514:28)\n    at WebSocket.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:2089:20)\n    at WebSocket.emit (node:events:514:28)\n    at Receiver.receiverOnMessage (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\ws\\lib\\websocket.js:1220:20)\n    at Receiver.emit (node:events:514:28)\n    at Receiver.dataMessage (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\ws\\lib\\receiver.js:569:14)","timestamp":"2025-12-18T16:27:26.503Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T16:31:38.776Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T16:31:38.778Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T16:31:40.290Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T16:31:40.292Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T16:31:40.293Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T16:31:40.295Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T16:31:40.295Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T16:31:40.298Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T16:31:40.298Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T16:31:40.300Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T16:31:40.301Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T16:31:40.304Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T16:31:40.306Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T16:31:40.307Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T16:31:40.309Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T16:31:40.312Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T16:31:40.313Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T16:31:40.314Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T16:31:40.314Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T16:31:40.315Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T16:31:40.316Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T16:31:40.316Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T16:31:40.316Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T16:31:40.317Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T16:31:40.317Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T16:31:40.318Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T16:31:40.318Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T16:31:40.318Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T16:31:40.318Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T16:31:40.320Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T16:31:40.321Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T16:31:40.321Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T16:31:40.322Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T16:31:40.322Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T16:31:40.351Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T16:31:40.354Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T16:31:40.355Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T16:31:40.355Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T16:31:40.355Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T16:31:40.356Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:31:54.739Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:31:54.742Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T16:31:55.189Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T16:31:55.195Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T16:32:15.150Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T16:32:15.152Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T16:32:16.586Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T16:32:16.589Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T16:32:16.590Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T16:32:16.592Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T16:32:16.593Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T16:32:16.604Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T16:32:16.606Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T16:32:16.607Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T16:32:16.608Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T16:32:16.609Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T16:32:16.610Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T16:32:16.610Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T16:32:16.612Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T16:32:16.614Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T16:32:16.617Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T16:32:16.618Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T16:32:16.618Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T16:32:16.619Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T16:32:16.620Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T16:32:16.620Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T16:32:16.621Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T16:32:16.622Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T16:32:16.622Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T16:32:16.622Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T16:32:16.623Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T16:32:16.623Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T16:32:16.623Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T16:32:16.625Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T16:32:16.625Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T16:32:16.626Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T16:32:16.626Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T16:32:16.627Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T16:32:16.655Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T16:32:16.658Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T16:32:16.659Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T16:32:16.659Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T16:32:16.660Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T16:32:16.660Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:32:28.987Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:32:28.992Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T16:32:30.945Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:32:37.744Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:32:37.744Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T16:32:38.121Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T16:32:38.126Z"}
+{"level":"error","message":"Command error: parent is not defined","stack":"ReferenceError: parent is not defined\n    at Framer.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:1028:17)\n    at Framer.emit (node:events:514:28)\n    at Framer.push (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:813:16)\n    at EventEmitter.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:842:37)\n    at EventEmitter.emit (node:events:514:28)\n    at WebSocket.<anonymous> (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\server3.js:2089:20)\n    at WebSocket.emit (node:events:514:28)\n    at Receiver.receiverOnMessage (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\ws\\lib\\websocket.js:1220:20)\n    at Receiver.emit (node:events:514:28)\n    at Receiver.dataMessage (C:\\Users\\novak\\Desktop\\PGB\\Ymail2\\node_modules\\ws\\lib\\receiver.js:569:14)","timestamp":"2025-12-18T16:32:42.690Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T16:33:29.719Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T16:33:29.720Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T16:33:31.431Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T16:33:31.434Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T16:33:31.435Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T16:33:31.437Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T16:33:31.437Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T16:33:31.440Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T16:33:31.441Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T16:33:31.441Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T16:33:31.442Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T16:33:31.443Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T16:33:31.444Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T16:33:31.444Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T16:33:31.445Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T16:33:31.446Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T16:33:31.447Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T16:33:31.448Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T16:33:31.449Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T16:33:31.450Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T16:33:31.450Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T16:33:31.451Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T16:33:31.451Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T16:33:31.452Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T16:33:31.452Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T16:33:31.453Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T16:33:31.453Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T16:33:31.453Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T16:33:31.453Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T16:33:31.455Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T16:33:31.455Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T16:33:31.456Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T16:33:31.456Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T16:33:31.456Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T16:33:31.486Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T16:33:31.490Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T16:33:31.490Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T16:33:31.490Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T16:33:31.491Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T16:33:31.491Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:33:45.314Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:33:45.317Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T16:33:45.736Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T16:33:45.743Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T16:34:42.154Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T16:35:24.793Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T16:35:24.794Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T16:35:27.351Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T16:35:27.354Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T16:35:27.355Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T16:35:27.358Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T16:35:27.358Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T16:35:27.363Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T16:35:27.363Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T16:35:27.364Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T16:35:27.365Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T16:35:27.366Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T16:35:27.367Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T16:35:27.367Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T16:35:27.369Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T16:35:27.370Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T16:35:27.371Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T16:35:27.372Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T16:35:27.373Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T16:35:27.374Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T16:35:27.375Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T16:35:27.377Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T16:35:27.378Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T16:35:27.379Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T16:35:27.379Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T16:35:27.380Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T16:35:27.381Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T16:35:27.381Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T16:35:27.382Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T16:35:27.388Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T16:35:27.388Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T16:35:27.389Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T16:35:27.390Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T16:35:27.390Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T16:35:27.432Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T16:35:27.437Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T16:35:27.438Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T16:35:27.438Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T16:35:27.439Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T16:35:27.439Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:35:40.294Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:35:40.299Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T16:35:41.043Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T16:35:41.055Z"}
+{"body":true,"level":"warn","message":"REPLY paraméter hiba:","parent_id":"bruh$yolo.com","subject":false,"timestamp":"2025-12-18T16:35:47.035Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T16:37:44.849Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T16:37:44.851Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T16:39:05.289Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T16:39:05.293Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T16:39:05.293Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T16:39:05.296Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T16:39:05.297Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T16:39:05.301Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T16:39:05.302Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T16:39:05.303Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T16:39:05.305Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T16:39:05.306Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T16:39:05.307Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T16:39:05.307Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T16:39:05.309Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T16:39:05.310Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T16:39:05.311Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T16:39:05.312Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T16:39:05.313Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T16:39:05.314Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T16:39:05.315Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T16:39:05.316Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T16:39:05.317Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T16:39:05.318Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T16:39:05.319Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T16:39:05.320Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T16:39:05.321Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T16:39:05.321Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T16:39:05.322Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T16:39:05.328Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T16:39:05.329Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T16:39:05.330Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T16:39:05.331Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T16:39:05.331Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T16:39:05.367Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T16:39:05.373Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T16:39:05.373Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T16:39:05.373Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T16:39:05.374Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T16:39:05.374Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:39:25.611Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:39:25.614Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T16:39:29.104Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:39:39.379Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:39:39.381Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T16:39:47.742Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:39:57.909Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:39:57.910Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T16:39:58.560Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T16:39:58.571Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T16:44:45.229Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T16:44:45.232Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T16:44:52.382Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T16:44:52.385Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T16:44:52.385Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T16:44:52.388Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T16:44:52.388Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T16:44:52.391Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T16:44:52.391Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T16:44:52.392Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T16:44:52.392Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T16:44:52.393Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T16:44:52.393Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T16:44:52.394Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T16:44:52.395Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T16:44:52.396Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T16:44:52.397Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T16:44:52.397Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T16:44:52.398Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T16:44:52.399Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T16:44:52.400Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T16:44:52.401Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T16:44:52.402Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T16:44:52.403Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T16:44:52.404Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T16:44:52.405Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T16:44:52.406Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T16:44:52.407Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T16:44:52.407Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T16:44:52.411Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T16:44:52.411Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T16:44:52.412Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T16:44:52.413Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T16:44:52.413Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T16:44:52.453Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T16:44:52.458Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T16:44:52.458Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T16:44:52.459Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T16:44:52.459Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T16:44:52.459Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:45:09.547Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:45:09.550Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T16:45:15.156Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T16:45:27.265Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T16:45:27.266Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T16:45:27.925Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T16:45:27.935Z"}
+{"body":true,"level":"warn","message":"REPLY paraméter hiba:","parent_id":null,"subject":true,"timestamp":"2025-12-18T16:45:33.935Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T16:49:48.442Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T16:49:48.444Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T17:03:35.473Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T17:03:35.477Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T17:03:35.478Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T17:03:35.480Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T17:03:35.480Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T17:03:35.484Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T17:03:35.484Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T17:03:35.485Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T17:03:35.485Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T17:03:35.486Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T17:03:35.487Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T17:03:35.488Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T17:03:35.489Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T17:03:35.490Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T17:03:35.490Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T17:03:35.491Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T17:03:35.492Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T17:03:35.493Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T17:03:35.494Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T17:03:35.495Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T17:03:35.496Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T17:03:35.497Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T17:03:35.498Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T17:03:35.499Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T17:03:35.500Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T17:03:35.502Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T17:03:35.503Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T17:03:35.509Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T17:03:35.510Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T17:03:35.511Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T17:03:35.512Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T17:03:35.513Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T17:03:35.549Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T17:03:35.555Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T17:03:35.578Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T17:03:35.580Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T17:03:35.581Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T17:03:35.587Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:03:46.053Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:03:46.057Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T17:03:46.838Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T17:03:46.849Z"}
+{"body":true,"level":"warn","message":"REPLY paraméter hiba:","parent_id":null,"subject":true,"timestamp":"2025-12-18T17:03:52.972Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:07:44.679Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:07:54.947Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:07:54.949Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T17:07:55.604Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T17:07:55.612Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-18T17:08:15.568Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:08:15.575Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:08:30.587Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:08:30.588Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:08:33.654Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:08:57.472Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:08:57.473Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:08:59.979Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:09:14.099Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:09:14.100Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-18T17:09:14.708Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-18T17:09:14.716Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:12:36.982Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T17:28:56.052Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T17:28:56.054Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T17:29:08.969Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T17:29:08.980Z"}
+{"level":"info","message":"🆕 Creating new database file","timestamp":"2025-12-18T17:29:08.982Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T17:29:08.989Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T17:29:08.990Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T17:29:08.999Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T17:29:09.002Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T17:29:09.004Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T17:29:09.005Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T17:29:09.007Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T17:29:09.030Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T17:29:09.041Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T17:29:09.051Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T17:29:09.062Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T17:29:09.071Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T17:29:09.083Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T17:29:09.091Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T17:29:09.101Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T17:29:09.110Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T17:29:09.122Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T17:29:09.132Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T17:29:09.143Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T17:29:09.144Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T17:29:09.155Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T17:29:09.156Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T17:29:09.269Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T17:29:09.270Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T17:29:09.272Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T17:29:09.273Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T17:29:09.274Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T17:29:09.362Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T17:29:09.373Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T17:29:09.374Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T17:29:09.375Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T17:29:09.376Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T17:29:09.378Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:29:29.740Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:29:29.747Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-18T17:29:30.919Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:29:34.851Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:29:34.854Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T17:29:35.837Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T17:29:35.854Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-18T17:29:38.496Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:29:38.512Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:29:38.539Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:29:54.850Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:29:54.851Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-18T17:29:55.887Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:29:57.725Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:29:57.727Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-18T17:29:58.735Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-18T17:29:58.746Z"}
+{"level":"info","message":"User logged out: bruh$yolo.com","timestamp":"2025-12-18T17:30:25.392Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:30:25.397Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:30:25.442Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:30:34.280Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:30:34.282Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T17:30:35.029Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T17:30:35.037Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-18T17:30:58.316Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:30:58.321Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:31:07.542Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:31:07.543Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-18T17:31:08.293Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-18T17:31:08.303Z"}
+{"level":"info","message":"User logged out: bruh$yolo.com","timestamp":"2025-12-18T17:31:22.762Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:31:22.767Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:31:30.576Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:31:30.577Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T17:31:31.328Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T17:31:31.337Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T17:42:14.620Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T17:42:14.628Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T17:42:18.748Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T17:42:18.757Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T17:42:18.759Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T17:42:18.766Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T17:42:18.767Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T17:42:18.778Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T17:42:18.779Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T17:42:18.782Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T17:42:18.784Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T17:42:18.785Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T17:42:18.787Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T17:42:18.787Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T17:42:18.791Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T17:42:18.794Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T17:42:18.797Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T17:42:18.799Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T17:42:18.803Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T17:42:18.805Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T17:42:18.808Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T17:42:18.813Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T17:42:18.815Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T17:42:18.818Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T17:42:18.820Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T17:42:18.823Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T17:42:18.825Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T17:42:18.828Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T17:42:18.828Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T17:42:18.849Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T17:42:18.850Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T17:42:18.854Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T17:42:18.855Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T17:42:18.856Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T17:42:18.945Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T17:42:18.956Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T17:42:18.957Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T17:42:18.958Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T17:42:18.959Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T17:42:18.961Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:42:34.278Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:42:34.285Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T17:42:35.343Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T17:42:35.360Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T17:47:42.491Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T17:47:42.494Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T17:48:13.409Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T17:48:13.421Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T17:48:13.422Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T17:48:13.430Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T17:48:13.431Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T17:48:13.439Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T17:48:13.440Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T17:48:13.443Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T17:48:13.445Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T17:48:13.447Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T17:48:13.449Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T17:48:13.450Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T17:48:13.453Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T17:48:13.457Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T17:48:13.460Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T17:48:13.465Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T17:48:13.469Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T17:48:13.472Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T17:48:13.474Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T17:48:13.481Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T17:48:13.483Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T17:48:13.486Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T17:48:13.488Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T17:48:13.490Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T17:48:13.491Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T17:48:13.493Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T17:48:13.494Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T17:48:13.513Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T17:48:13.515Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T17:48:13.518Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T17:48:13.520Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T17:48:13.521Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T17:48:13.597Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T17:48:13.611Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T17:48:13.612Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T17:48:13.613Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T17:48:13.615Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T17:48:13.616Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T17:50:12.700Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T17:50:12.702Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T17:50:16.725Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T17:50:16.733Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T17:50:16.734Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T17:50:16.742Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T17:50:16.742Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T17:50:16.755Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T17:50:16.756Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T17:50:16.758Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T17:50:16.760Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T17:50:16.761Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T17:50:16.763Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T17:50:16.765Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T17:50:16.768Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T17:50:16.772Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T17:50:16.774Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T17:50:16.777Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T17:50:16.780Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T17:50:16.783Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T17:50:16.785Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T17:50:16.789Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T17:50:16.791Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T17:50:16.794Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T17:50:16.797Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T17:50:16.799Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T17:50:16.800Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T17:50:16.803Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T17:50:16.804Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T17:50:16.819Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T17:50:16.820Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T17:50:16.824Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T17:50:16.825Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T17:50:16.826Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T17:50:16.952Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T17:50:16.971Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T17:50:16.972Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T17:50:16.974Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T17:50:16.974Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T17:50:16.976Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:50:45.496Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:50:45.505Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T17:50:46.645Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T17:50:46.664Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T17:51:55.248Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T17:52:03.905Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T17:52:03.908Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T17:52:04.896Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T17:52:04.907Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T18:01:05.842Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T18:01:05.845Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T18:01:09.184Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T18:01:09.195Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T18:01:09.197Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T18:01:09.205Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T18:01:09.207Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T18:01:09.218Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T18:01:09.219Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T18:01:09.223Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T18:01:09.226Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T18:01:09.227Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T18:01:09.229Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T18:01:09.230Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T18:01:09.233Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T18:01:09.235Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T18:01:09.236Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T18:01:09.238Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T18:01:09.241Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T18:01:09.244Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T18:01:09.246Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T18:01:09.250Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T18:01:09.252Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T18:01:09.255Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T18:01:09.257Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T18:01:09.260Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T18:01:09.261Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T18:01:09.263Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T18:01:09.264Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T18:01:09.279Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T18:01:09.280Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T18:01:09.283Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T18:01:09.285Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T18:01:09.285Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T18:01:09.425Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T18:01:09.438Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T18:01:09.439Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T18:01:09.441Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T18:01:09.442Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T18:01:09.444Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:01:27.407Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:01:27.415Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T18:01:28.718Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T18:01:28.739Z"}
+{"level":"info","message":"User logged out: vik$yolo.com","timestamp":"2025-12-18T18:01:38.896Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T18:01:38.909Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:01:49.922Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:01:49.923Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T18:01:51.002Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T18:01:51.015Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T18:06:57.672Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T18:06:57.676Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T18:07:02.668Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T18:07:02.676Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T18:07:02.678Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T18:07:02.686Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T18:07:02.686Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T18:07:02.695Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T18:07:02.697Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T18:07:02.699Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T18:07:02.702Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T18:07:02.704Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T18:07:02.708Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T18:07:02.709Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T18:07:02.713Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T18:07:02.717Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T18:07:02.719Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T18:07:02.725Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T18:07:02.730Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T18:07:02.734Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T18:07:02.737Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T18:07:02.742Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T18:07:02.745Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T18:07:02.749Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T18:07:02.752Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T18:07:02.755Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T18:07:02.756Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T18:07:02.759Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T18:07:02.760Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T18:07:02.785Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T18:07:02.786Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T18:07:02.790Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T18:07:02.792Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T18:07:02.793Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T18:07:02.962Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T18:07:02.975Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T18:07:02.976Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T18:07:02.978Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T18:07:02.979Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T18:07:02.981Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:07:15.970Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:07:15.977Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T18:07:17.059Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T18:07:17.075Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T18:08:57.456Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T18:11:08.592Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T18:11:08.595Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T18:11:15.906Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T18:11:15.915Z"}
+{"level":"info","message":"🆕 Creating new database file","timestamp":"2025-12-18T18:11:15.916Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T18:11:15.924Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T18:11:15.925Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T18:11:15.938Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T18:11:15.942Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T18:11:15.944Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T18:11:15.946Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T18:11:15.947Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T18:11:15.961Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T18:11:15.971Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T18:11:15.982Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T18:11:15.994Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T18:11:16.004Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T18:11:16.014Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T18:11:16.025Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T18:11:16.039Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T18:11:16.048Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T18:11:16.059Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T18:11:16.067Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T18:11:16.077Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T18:11:16.078Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T18:11:16.088Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T18:11:16.089Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T18:11:16.198Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T18:11:16.199Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T18:11:16.203Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T18:11:16.203Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T18:11:16.204Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T18:11:16.287Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T18:11:16.298Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T18:11:16.299Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T18:11:16.300Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T18:11:16.301Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T18:11:16.303Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:11:33.042Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:11:33.046Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-18T18:11:33.480Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:11:42.802Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:11:42.803Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-18T18:11:43.326Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:11:47.616Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:11:47.618Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-18T18:11:48.103Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-18T18:11:48.108Z"}
+{"level":"info","message":"User logged out: bruh$yolo.com","timestamp":"2025-12-18T18:12:04.405Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T18:12:04.412Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T18:12:04.431Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T18:12:04.434Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:12:09.578Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:12:09.579Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T18:12:10.087Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T18:12:10.091Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T18:28:08.672Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T18:28:08.675Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T18:28:13.380Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T18:28:13.383Z"}
+{"level":"info","message":"📂 Existing database file found","timestamp":"2025-12-18T18:28:13.383Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T18:28:13.386Z"}
+{"level":"info","message":"🔍 Running integrity check on existing database...","timestamp":"2025-12-18T18:28:13.386Z"}
+{"level":"info","message":"✅ Database integrity check passed","timestamp":"2025-12-18T18:28:13.389Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T18:28:13.389Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T18:28:13.390Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T18:28:13.390Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T18:28:13.391Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T18:28:13.391Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T18:28:13.391Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T18:28:13.392Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T18:28:13.392Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T18:28:13.393Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T18:28:13.393Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T18:28:13.394Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T18:28:13.395Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T18:28:13.395Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T18:28:13.396Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T18:28:13.396Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T18:28:13.397Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T18:28:13.397Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T18:28:13.398Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T18:28:13.398Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T18:28:13.398Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T18:28:13.398Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T18:28:13.400Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T18:28:13.400Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T18:28:13.401Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T18:28:13.402Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T18:28:13.402Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T18:28:13.432Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T18:28:13.436Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T18:28:13.436Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T18:28:13.437Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T18:28:13.438Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T18:28:13.440Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T18:28:20.598Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T18:28:20.599Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T18:30:27.300Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T18:30:27.303Z"}
+{"level":"info","message":"🆕 Creating new database file","timestamp":"2025-12-18T18:30:27.304Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T18:30:27.306Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T18:30:27.306Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T18:30:27.309Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T18:30:27.309Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T18:30:27.310Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T18:30:27.311Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T18:30:27.311Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T18:30:27.322Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T18:30:27.326Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T18:30:27.329Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T18:30:27.332Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T18:30:27.336Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T18:30:27.339Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T18:30:27.343Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T18:30:27.347Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T18:30:27.350Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T18:30:27.354Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T18:30:27.357Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T18:30:27.360Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T18:30:27.360Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T18:30:27.363Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T18:30:27.363Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T18:30:27.399Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T18:30:27.399Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T18:30:27.400Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T18:30:27.400Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T18:30:27.400Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T18:30:27.428Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T18:30:27.432Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T18:30:27.432Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T18:30:27.432Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T18:30:27.432Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T18:30:27.433Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:30:40.545Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:30:40.549Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-18T18:30:40.965Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:30:49.780Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:30:49.781Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-18T18:30:50.181Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:30:54.001Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:30:54.001Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-18T18:30:54.404Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-18T18:30:54.409Z"}
+{"level":"info","message":"User logged out: bruh$yolo.com","timestamp":"2025-12-18T18:31:21.761Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T18:31:21.768Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T18:31:21.781Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T18:31:21.783Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:31:39.397Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:31:39.398Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T18:31:39.849Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T18:31:39.853Z"}
+{"level":"info","message":"\n🛑 Shutting down gracefully...","timestamp":"2025-12-18T18:35:31.303Z"}
+{"level":"info","message":"✅ Database closed","timestamp":"2025-12-18T18:35:31.306Z"}
+{"level":"info","message":"🔧 Starting database initialization...","timestamp":"2025-12-18T18:35:37.319Z"}
+{"level":"info","message":"📁 Database path:","timestamp":"2025-12-18T18:35:37.321Z"}
+{"level":"info","message":"🆕 Creating new database file","timestamp":"2025-12-18T18:35:37.322Z"}
+{"level":"info","message":"✅ Database file opened successfully","timestamp":"2025-12-18T18:35:37.324Z"}
+{"level":"info","message":"⚙️ Configuring database pragmas...","timestamp":"2025-12-18T18:35:37.324Z"}
+{"level":"info","message":"✓ Foreign keys enabled","timestamp":"2025-12-18T18:35:37.327Z"}
+{"level":"info","message":"✓ Journal mode: DELETE (Windows-safe)","timestamp":"2025-12-18T18:35:37.328Z"}
+{"level":"info","message":"✓ Synchronous mode: NORMAL","timestamp":"2025-12-18T18:35:37.328Z"}
+{"level":"info","message":"✓ Temp store: MEMORY","timestamp":"2025-12-18T18:35:37.329Z"}
+{"level":"info","message":"📊 Creating base tables...","timestamp":"2025-12-18T18:35:37.329Z"}
+{"level":"info","message":"✓ users table ready","timestamp":"2025-12-18T18:35:37.341Z"}
+{"level":"info","message":"✓ tokens table ready","timestamp":"2025-12-18T18:35:37.344Z"}
+{"level":"info","message":"✓ messages table ready","timestamp":"2025-12-18T18:35:37.347Z"}
+{"level":"info","message":"✓ message_recipients table ready","timestamp":"2025-12-18T18:35:37.351Z"}
+{"level":"info","message":"✓ parts table ready","timestamp":"2025-12-18T18:35:37.353Z"}
+{"level":"info","message":"✓ labels table ready","timestamp":"2025-12-18T18:35:37.357Z"}
+{"level":"info","message":"✓ message_labels table ready","timestamp":"2025-12-18T18:35:37.361Z"}
+{"level":"info","message":"✓ filters table ready","timestamp":"2025-12-18T18:35:37.363Z"}
+{"level":"info","message":"✓ templates table ready","timestamp":"2025-12-18T18:35:37.366Z"}
+{"level":"info","message":"✓ contacts table ready","timestamp":"2025-12-18T18:35:37.369Z"}
+{"level":"info","message":"✓ blocked_senders table ready","timestamp":"2025-12-18T18:35:37.372Z"}
+{"level":"info","message":"✓ external_emails table ready","timestamp":"2025-12-18T18:35:37.378Z"}
+{"level":"info","message":"🔍 Creating FTS5 virtual table...","timestamp":"2025-12-18T18:35:37.378Z"}
+{"level":"info","message":"✓ messages_fts virtual table ready","timestamp":"2025-12-18T18:35:37.381Z"}
+{"level":"info","message":"📇 Creating indexes...","timestamp":"2025-12-18T18:35:37.382Z"}
+{"level":"info","message":"✓ All indexes created","timestamp":"2025-12-18T18:35:37.419Z"}
+{"level":"info","message":"🔍 Final integrity check...","timestamp":"2025-12-18T18:35:37.419Z"}
+{"level":"info","message":"✅ Final integrity check passed","timestamp":"2025-12-18T18:35:37.420Z"}
+{"level":"info","message":"🟢 DATABASE READY - Server can now accept requests","timestamp":"2025-12-18T18:35:37.420Z"}
+{"level":"info","message":"🚀 Starting network services...","timestamp":"2025-12-18T18:35:37.421Z"}
+{"level":"info","message":"✨ Ymail WebSocket server on port 8080","timestamp":"2025-12-18T18:35:37.448Z"}
+{"level":"info","message":"🎉 ALL SERVICES STARTED SUCCESSFULLY","timestamp":"2025-12-18T18:35:37.452Z"}
+{"level":"info","message":"🚀 Ymail Server v2.0 ready to accept connections","timestamp":"2025-12-18T18:35:37.452Z"}
+{"level":"info","message":"✨ Ymail plaintext server on port 1234","timestamp":"2025-12-18T18:35:37.453Z"}
+{"level":"info","message":"✨ Ymail TLS server on port 1235","timestamp":"2025-12-18T18:35:37.453Z"}
+{"level":"info","message":"⚡ HTTP API on port 3001","timestamp":"2025-12-18T18:35:37.453Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:35:53.996Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:35:54.000Z"}
+{"level":"info","message":"New user registered: vik$yolo.com","timestamp":"2025-12-18T18:35:54.412Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:36:04.928Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:36:04.929Z"}
+{"level":"info","message":"New user registered: bruh$yolo.com","timestamp":"2025-12-18T18:36:05.354Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:36:09.141Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:36:09.142Z"}
+{"level":"info","message":"User logged in: bruh$yolo.com","timestamp":"2025-12-18T18:36:09.570Z"}
+{"level":"info","message":"User authenticated: bruh$yolo.com","timestamp":"2025-12-18T18:36:09.576Z"}
+{"level":"info","message":"User logged out: bruh$yolo.com","timestamp":"2025-12-18T18:36:23.634Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T18:36:23.640Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T18:36:23.656Z"}
+{"level":"info","message":"↙ Client disconnected","timestamp":"2025-12-18T18:36:23.657Z"}
+{"level":"info","message":"🕸️ WS client connected","timestamp":"2025-12-18T18:36:26.104Z"}
+{"level":"info","message":"🔒 Secure client connected:","timestamp":"2025-12-18T18:36:26.105Z"}
+{"level":"info","message":"User logged in: vik$yolo.com","timestamp":"2025-12-18T18:36:26.498Z"}
+{"level":"info","message":"User authenticated: vik$yolo.com","timestamp":"2025-12-18T18:36:26.501Z"}
