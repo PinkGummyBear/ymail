@@ -9,20 +9,7 @@ import winston from 'winston';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// Logger (opcionális, hasznos hibákhoz)
-const logger = winston.createLogger({
-  level: 'info',
-  format: winston.format.combine(
-    winston.format.timestamp(),
-    winston.format.errors({ stack: true }),
-    winston.format.json()
-  ),
-  transports: [
-    new winston.transports.Console(),
-    new winston.transports.File({ filename: 'logs/combined.log' }),
-    new winston.transports.File({ filename: 'logs/error.log', level: 'error' })
-  ]
-});
+
 
 // Express app létrehozása
 const app = express();
@@ -53,6 +40,7 @@ app.listen(port, () => {
 // LOGGING SETUP
 // ============================================================================
 
+// Logger (opcionális, hasznos hibákhoz)
 const logger = winston.createLogger({
   level: process.env.LOG_LEVEL || 'info',
   format: winston.format.combine(
@@ -70,7 +58,7 @@ const logger = winston.createLogger({
       )
     })
   ]
-});
+})
 
 // ============================================================================
 // CONFIGURATION & CONSTANTS
@@ -2267,6 +2255,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
