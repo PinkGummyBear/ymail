@@ -6,7 +6,7 @@ import bcrypt from 'bcrypt';
 import { v4 as uuidv4 } from 'uuid';
 import { promisify } from 'util';
 import cors from 'cors';
-import WebSocket from 'ws';
+import { WebSocketServer } from 'ws';
 import sqlite3Pkg from 'sqlite3';
 import crypto from 'crypto';
 import jwt from 'jsonwebtoken';
@@ -2117,7 +2117,7 @@ async function startServer() {
     });
     
     // 5. WebSocket server
-    const wss = new WebSocket.Server({ port: config.websocket.port });
+    const wss = new WebSocketServer({ port: config.websocket.port });
     
     wss.on('connection', ws => {
       logger.info('🕸️ WS client connected');
@@ -2248,6 +2248,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
