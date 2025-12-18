@@ -1,18 +1,20 @@
-const fs = require('fs');
-const net = require('net');
-const tls = require('tls');
-const { EventEmitter } = require('events');
-const bcrypt = require('bcrypt');
-const { v4: uuidv4 } = require('uuid');
+import fs from 'fs';
+import net from 'net';
+import tls from 'tls';
+import { EventEmitter } from 'events';
+import bcrypt from 'bcrypt';
+import { v4 as uuidv4 } from 'uuid';
 const SALT_ROUNDS = 12;
-const { promisify } = require('util');
-const cors = require('cors');
-const WebSocket = require('ws');
-const sqlite3 = require('sqlite3').verbose();
-const crypto = require('crypto');
-const jwt = require('jsonwebtoken');
-import express from "express";
-import path from "path";
+import { promisify } from 'util';
+import cors from 'cors';
+import WebSocket from 'ws';
+import sqlite3Pkg from 'sqlite3';
+const sqlite3 = sqlite3Pkg.verbose();
+import crypto from 'crypto';
+import jwt from 'jsonwebtoken';
+import express from 'express';
+import path from 'path';
+
 
 const app = express();
 
@@ -2236,5 +2238,6 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
