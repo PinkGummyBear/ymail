@@ -72,20 +72,7 @@ const server = app.listen(port, () => {
   console.log(`Server running on port ${port}`);
 });
 
-// Attach WebSocket server to Express server
-const wss = new WebSocketServer({ server });
 
-// WebSocket kezelése
-wss.on("connection", (ws) => {
-  console.log("WebSocket connected");
-
-  ws.on("message", (msg) => {
-    console.log("Message:", msg.toString());
-  });
-
-  ws.on("close", () => {
-    console.log("WebSocket closed");
-  });
 });
 
 
@@ -2284,6 +2271,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
