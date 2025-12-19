@@ -1135,7 +1135,7 @@ async replyToMessage(parentId, subject, body) {
     }
 
     // App State
-    const client = new YmailClient('ws://localhost:8080');
+    const client = new YmailClient('wss://ymail.onrender.com');
     let currentFolder = 'inbox';
     let currentMessages = [];
     let selectedMessages = new Set();
@@ -1713,4 +1713,5 @@ const response = await client.sendCommand('LIST_THREAD', { thread_id: msg.thread
     });
   </script>
 </body>
+
 </html>
