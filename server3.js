@@ -2139,31 +2139,37 @@ async function startServer() {
       logger.info(`✨ Ymail TLS server on port ${config.tls.port}`);
     });
     
-    // 5. WebSocket server
-    const wss = new WebSocketServer({ port: config.websocket.port });
-    
-    wss.on('connection', ws => {
-      logger.info('🕸️ WS client connected');
-      const fakeSocket = new EventEmitter();
-      fakeSocket.remoteAddress = ws._socket ? ws._socket.remoteAddress : 'websocket';
-      fakeSocket.write = buf => {
-        if (ws.readyState === WebSocket.OPEN) {
-          ws.send(buf);
-          return true;
-        }
-        return false;
-      };
-      fakeSocket.end = () => {
-        if (ws.readyState === WebSocket.OPEN) ws.close();
-      };
-      ws.on('message', data => {
-        const buf = Buffer.isBuffer(data) ? data : Buffer.from(data);
-        fakeSocket.emit('data', buf);
-      });
-      ws.on('close', () => fakeSocket.emit('end'));
-      ws.on('error', err => logger.error('🕸️ WS error:', err));
-      initSecureConnection(fakeSocket);
-    });
+   const wss = new WebSocketServer({ server }); // server = az Express app.listen által visszaadott server objektum
+
+wss.on('connection', ws => {
+  logger.info('🕸️ WS client connected (Express)');
+  
+  const fakeSocket = new EventEmitter();
+  fakeSocket.remoteAddress = ws._socket ? ws._socket.remoteAddress : 'websocket';
+  
+  fakeSocket.write = buf => {
+    if (ws.readyState === 1) { // WebSocket.OPEN
+      ws.send(buf);
+      return true;
+    }
+    return false;
+  };
+  
+  fakeSocket.end = () => {
+    if (ws.readyState === 1) ws.close();
+  };
+  
+  ws.on('message', data => {
+    const buf = Buffer.isBuffer(data) ? data : Buffer.from(data);
+    fakeSocket.emit('data', buf);
+  });
+  
+  ws.on('close', () => fakeSocket.emit('end'));
+  ws.on('error', err => logger.error('🕸️ WS error:', err));
+  
+  // 🔥 ITT HÍVOD MEG AZ ÜZENETKEZELŐT!
+  initSecureConnection(fakeSocket);
+});
     
     logger.info(`✨ Ymail WebSocket server on port ${config.websocket.port}`);
     
@@ -2271,6 +2277,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
