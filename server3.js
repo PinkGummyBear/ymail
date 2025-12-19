@@ -67,7 +67,7 @@ app.get(/.*/, (req, res) => {
 
 // Port beállítása (Render.com és lokális)
 const port = process.env.PORT || 3000;
-const server = app.listen(port, () => {
+const expressServer = app.listen(port, () => {  // ← expressServer
   logger.info(`Server running on port ${port}`);
   console.log(`Server running on port ${port}`);
 });
@@ -2139,16 +2139,15 @@ async function startServer() {
       logger.info(`✨ Ymail TLS server on port ${config.tls.port}`);
     });
     
-   const wss = new WebSocketServer({ server }); // server = az Express app.listen által visszaadott server objektum
-
+  const wss = new WebSocketServer({ server: expressServer });
 wss.on('connection', ws => {
-  logger.info('🕸️ WS client connected (Express)');
+  logger.info('🕸️ WS client connected');
   
   const fakeSocket = new EventEmitter();
   fakeSocket.remoteAddress = ws._socket ? ws._socket.remoteAddress : 'websocket';
   
   fakeSocket.write = buf => {
-    if (ws.readyState === 1) { // WebSocket.OPEN
+    if (ws.readyState === 1) {
       ws.send(buf);
       return true;
     }
@@ -2165,9 +2164,8 @@ wss.on('connection', ws => {
   });
   
   ws.on('close', () => fakeSocket.emit('end'));
-  ws.on('error', err => logger.error('🕸️ WS error:', err));
+  ws.on('error', err => logger.error('WS error:', err));
   
-  // 🔥 ITT HÍVOD MEG AZ ÜZENETKEZELŐT!
   initSecureConnection(fakeSocket);
 });
     
@@ -2277,6 +2275,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
