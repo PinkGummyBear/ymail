@@ -94,7 +94,8 @@ app.get('/health', (req, res) => {
 app.use(express.static(path.join(__dirname, 'public')));
 
 // ✅ 3. CATCH-ALL UTOLJÁRA (csak SPA routing-hoz)
-app.get('*', (req, res) => {
+// ✅ EZ MŰKÖDIK:
+app.get('/*', (req, res) => {
   const indexPath = path.join(__dirname, 'public', 'index.html');
   if (fs.existsSync(indexPath)) {
     res.sendFile(indexPath);
@@ -102,7 +103,6 @@ app.get('*', (req, res) => {
     res.status(404).send('Index file not found');
   }
 });
-
 // Port beállítása (Render.com és lokális)
 const port = process.env.PORT || 3000;
 const expressServer = app.listen(port, () => {  // ← expressServer
@@ -2272,6 +2272,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
