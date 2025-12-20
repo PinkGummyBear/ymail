@@ -1,12 +1,12 @@
-// mint.js
-const crypto = require('crypto');
+// mint.js - ES MODULES VERZIÓ
+import crypto from 'crypto';
 
 /**
  * @param {string} resource  e.g. "alice$yolo.com"
  * @param {number} bits      number of leading zero bits required
  * @returns {string}         a valid Hashcash stamp
  */
-function mint(resource, bits) {
+export function mint(resource, bits) {
   const version = 1;
   const date    = new Date().toISOString().slice(2,10).replace(/-/g,'');
   const rand    = crypto.randomBytes(4).toString('hex');
@@ -34,6 +34,3 @@ function mint(resource, bits) {
     counter++;
   }
 }
-
-// export it
-module.exports = { mint };
