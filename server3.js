@@ -62,7 +62,6 @@ const apiLimiter = rateLimit({
 
 app.use(apiLimiter);
 
-// ✅ 1. API ROUTE-OK
 app.get('/mint', async (req, res) => {
   const resource = String(req.query.resource || '');
   const bits = Math.min(Math.max(parseInt(req.query.bits) || 16, 16), 32);
@@ -72,8 +71,7 @@ app.get('/mint', async (req, res) => {
   }
   
   try {
-    const { mint } = require('./mint');
-    const stamp = await mint(resource, bits);
+    const stamp = await mint(resource, bits); // ✅ Már nem kell destructure
     res.json({ stamp });
   } catch (err) {
     logger.error('Mint error:', err);
@@ -2266,6 +2264,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
