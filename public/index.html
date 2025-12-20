@@ -1066,16 +1066,18 @@
         return this.sendCommand('LOGOUT');
       }
 
-      async mintHashcash() {
-        try {
-          const response = await fetch(`http://localhost:3001/mint?resource=${encodeURIComponent(this.userEmail)}&bits=16`);
-          const data = await response.json();
-          return data.stamp;
-        } catch (err) {
-          console.error('Hashcash mint failed:', err);
-          throw err;
-        }
-      }
+     async mintHashcash() {
+  try {
+    // ✅ Dinamikus URL - működik lokálisan ÉS Render.com-on is
+    const baseUrl = window.location.origin; // https://ymail.onrender.com vagy http://localhost:3000
+    const response = await fetch(`${baseUrl}/mint?resource=${encodeURIComponent(this.userEmail)}&bits=16`);
+    const data = await response.json();
+    return data.stamp;
+  } catch (err) {
+    console.error('Hashcash mint failed:', err);
+    throw err;
+  }
+}
 
       async sendMessage(to, subject, body, cc = [], bcc = [], inReplyTo = null) {
         const hashcash = await this.mintHashcash();
@@ -1715,4 +1717,5 @@ const response = await client.sendCommand('LIST_THREAD', { thread_id: msg.thread
 </body>
 
 </html>
+
 
