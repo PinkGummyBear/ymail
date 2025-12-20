@@ -125,7 +125,7 @@ const MAX_SUBJECT_LENGTH = 998;
 const MAX_BODY_LENGTH = 1048576;
 const MAX_RECIPIENTS = 100;
 const HASHCASH_MAX_AGE_HOURS = 24;
-
+const SALT_ROUNDS = 10;
 const rateLimits = new Map();
 const RATE_LIMIT_WINDOW = 60000;
 const RATE_LIMIT_MAX_COMMANDS = 100;
@@ -2275,6 +2275,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
