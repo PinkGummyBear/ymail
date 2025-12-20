@@ -20,7 +20,7 @@ import winston from 'winston';
 import rateLimit from 'express-rate-limit';
 import { fileURLToPath } from 'url';;
 const sqlite3 = sqlite3Pkg.verbose();
-
+import { mint } from './mint.js';
 
 // ES Modules __filename és __dirname
 const __filename = fileURLToPath(import.meta.url);
@@ -71,7 +71,7 @@ app.get('/mint', async (req, res) => {
   }
   
   try {
-    const stamp = await mint(resource, bits); // ✅ Már nem kell destructure
+    const stamp = await mint(resource, bits); // ✅ Már import-ból jön
     res.json({ stamp });
   } catch (err) {
     logger.error('Mint error:', err);
@@ -2264,6 +2264,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
