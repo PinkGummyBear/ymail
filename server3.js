@@ -51,11 +51,50 @@ const logger = winston.createLogger({
 // Express app létrehozása
 const app = express();
 
-// Statikus fájlok kiszolgálása a public mappából
+// Middleware-ek
+app.use(express.json());
+app.use(cors());
+
+const apiLimiter = rateLimit({
+  windowMs: 15 * 60 * 1000,
+  max: 100
+});
+
+app.use(apiLimiter);
+
+// ✅ 1. API ROUTE-OK ELŐSZÖR!
+app.get('/mint', async (req, res) => {
+  const resource = String(req.query.resource || '');
+  const bits = Math.min(Math.max(parseInt(req.query.bits) || 16, 16), 32);
+  
+  if (!resource || !validateEmail(resource)) {
+    return res.status(400).json({ error: 'Invalid resource' });
+  }
+  
+  try {
+    const { mint } = require('./mint');
+    const stamp = await mint(resource, bits);
+    res.json({ stamp });
+  } catch (err) {
+    logger.error('Mint error:', err);
+    res.status(500).json({ error: 'Mint failed' });
+  }
+});
+
+app.get('/health', (req, res) => {
+  res.json({
+    status: 'ok',
+    dbReady,
+    timestamp: Date.now(),
+    uptime: process.uptime()
+  });
+});
+
+// ✅ 2. STATIKUS FÁJLOK
 app.use(express.static(path.join(__dirname, 'public')));
 
-// Minden GET kérést az index.html-re irányítunk (SPA)
-app.get(/.*/, (req, res) => {
+// ✅ 3. CATCH-ALL UTOLJÁRA (csak SPA routing-hoz)
+app.get('*', (req, res) => {
   const indexPath = path.join(__dirname, 'public', 'index.html');
   if (fs.existsSync(indexPath)) {
     res.sendFile(indexPath);
@@ -63,7 +102,6 @@ app.get(/.*/, (req, res) => {
     res.status(404).send('Index file not found');
   }
 });
-
 
 // Port beállítása (Render.com és lokális)
 const port = process.env.PORT || 3000;
@@ -2171,49 +2209,8 @@ wss.on('connection', ws => {
     
     logger.info(`✨ Ymail WebSocket server on port ${config.websocket.port}`);
     
-    // 6. HTTP API
-    const api = express();
-    api.use(cors());
-    api.use(express.json());
+
     
-    const apiLimiter = rateLimit({
-      windowMs: 15 * 60 * 1000,
-      max: 100
-    });
-    
-    api.use(apiLimiter);
-    
-    api.get('/mint', async (req, res) => {
-      const resource = String(req.query.resource || '');
-      const bits = Math.min(Math.max(parseInt(req.query.bits) || 16, 16), 32);
-      
-      if (!resource || !validateEmail(resource)) {
-        return res.status(400).json({ error: 'Invalid resource' });
-      }
-      
-      try {
-        const { mint } = require('./mint');
-        const stamp = await mint(resource, bits);
-        res.json({ stamp });
-      } catch (err) {
-        logger.error('Mint error:', err);
-        res.status(500).json({ error: 'Mint failed' });
-      }
-    });
-    
-    api.get('/health', (req, res) => {
-      res.json({
-        status: 'ok',
-        dbReady,
-        timestamp: Date.now(),
-        uptime: process.uptime(),
-        emailBridge: config.emailBridge.enabled
-      });
-    });
-    
-    api.listen(3001, () => {
-      logger.info('⚡ HTTP API on port 3001');
-    });
     
     logger.info('🎉 ALL SERVICES STARTED SUCCESSFULLY');
     logger.info('🚀 Ymail Server v2.0 ready to accept connections');
@@ -2275,6 +2272,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
