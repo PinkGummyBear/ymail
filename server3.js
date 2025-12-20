@@ -62,7 +62,7 @@ const apiLimiter = rateLimit({
 
 app.use(apiLimiter);
 
-// ✅ 1. API ROUTE-OK ELŐSZÖR!
+// ✅ 1. API ROUTE-OK
 app.get('/mint', async (req, res) => {
   const resource = String(req.query.resource || '');
   const bits = Math.min(Math.max(parseInt(req.query.bits) || 16, 16), 32);
@@ -93,15 +93,9 @@ app.get('/health', (req, res) => {
 // ✅ 2. STATIKUS FÁJLOK
 app.use(express.static(path.join(__dirname, 'public')));
 
-// ✅ 3. CATCH-ALL UTOLJÁRA (csak SPA routing-hoz)
-// ✅ EZ MŰKÖDIK:
-app.get('/*', (req, res) => {
-  const indexPath = path.join(__dirname, 'public', 'index.html');
-  if (fs.existsSync(indexPath)) {
-    res.sendFile(indexPath);
-  } else {
-    res.status(404).send('Index file not found');
-  }
+// ✅ 3. SPA FALLBACK (middleware, nem route!)
+app.use((req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'index.html'));
 });
 // Port beállítása (Render.com és lokális)
 const port = process.env.PORT || 3000;
@@ -2272,6 +2266,7 @@ process.on('unhandledRejection', (reason, promise) => {
 
 
 startServer();
+
 
 
 
